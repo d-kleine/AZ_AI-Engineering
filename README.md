@@ -16,7 +16,7 @@ The program is divided into three main sections, each focusing on specific aspec
 * Image Classification and Object Detection with Azure Custom Vision
 * Deployment and Monitoring of Computer Vision Solutions
 
-&rarr; [Project: Automated Passenger Boarding Kiosk]
+&rarr; [Project: Automated Passenger Boarding Kiosk (tdb)]
 
 ###  2. Building NLP and Conversational AI Solutions
 
@@ -27,7 +27,7 @@ The program is divided into three main sections, each focusing on specific aspec
 * Text Analytics and Speech Services
 
 
-&rarr; [Project: Project: Dental Office Virtual Assistant]
+&rarr; [Project: Project: Dental Office Virtual Assistant (tdb)]
 
 ### 3. Knowledge Mining
 
@@ -37,7 +37,7 @@ The program is divided into three main sections, each focusing on specific aspec
 * Enriching Data in Azure Cognitive Search
 * Consuming Azure Cognitive Search in an External Application
 
-&rarr; [Project:  Build an AI Enriched Corporate Training Catalog
+&rarr; [Project:  Build an AI Enriched Corporate Training Catalog (tdb)]
 
 ### Key Skills
 
