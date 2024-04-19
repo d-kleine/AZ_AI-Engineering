@@ -1,0 +1,2 @@
+azure_storage==0.37.0
+python-dotenv==1.0.1
