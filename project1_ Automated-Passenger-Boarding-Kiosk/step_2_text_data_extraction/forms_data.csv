@@ -1,0 +1,16 @@
+Form Number,Model ID,Field Name,Label,Value,Confidence Score
+1,ee10241d-0159-45ab-983d-2a5c97491ad8,field-0,Passenger Name,Avkash Chauhan,1.0
+1,ee10241d-0159-45ab-983d-2a5c97491ad8,field-1,Carrier,UA,1.0
+1,ee10241d-0159-45ab-983d-2a5c97491ad8,field-2,Flight No.,234,1.0
+1,ee10241d-0159-45ab-983d-2a5c97491ad8,field-3,Class,E,1.0
+1,ee10241d-0159-45ab-983d-2a5c97491ad8,field-4,Passenger Name,Avkash Chauhan,0.36
+1,ee10241d-0159-45ab-983d-2a5c97491ad8,field-5,From:,San Francisco,1.0
+1,ee10241d-0159-45ab-983d-2a5c97491ad8,field-6,Date,"April 20, 2022",1.0
+1,ee10241d-0159-45ab-983d-2a5c97491ad8,field-7,Baggage,NO,0.36
+1,ee10241d-0159-45ab-983d-2a5c97491ad8,field-8,Seat,20A,0.86
+1,ee10241d-0159-45ab-983d-2a5c97491ad8,field-9,Seat,20A,0.36
+1,ee10241d-0159-45ab-983d-2a5c97491ad8,field-10,Date,"April 20, 2022",0.36
+1,ee10241d-0159-45ab-983d-2a5c97491ad8,field-11,To:,Chicago,1.0
+1,ee10241d-0159-45ab-983d-2a5c97491ad8,field-12,GATE,G1,1.0
+1,ee10241d-0159-45ab-983d-2a5c97491ad8,field-13,GATE,G1,0.36
+1,ee10241d-0159-45ab-983d-2a5c97491ad8,field-14,PST,10:00 AM,1.0
