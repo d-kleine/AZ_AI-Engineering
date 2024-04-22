@@ -1,0 +1,13 @@
+azure-ai-formrecognizer
+azure-cognitiveservices-vision-customvision
+azure-core
+azure-identity
+azure-mgmt-resource
+azure-storage-blob
+matplotlib
+msrest
+pandas
+Pillow
+python-dotenv
+requests
+video-indexer
