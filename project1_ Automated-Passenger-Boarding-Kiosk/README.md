@@ -49,8 +49,8 @@ Traditional boarding processes often entail cumbersome manual verification proce
 ![Data Flow Diagram](./step_1_problem_definition_system_design/DataFlow-Diagram.png)
 
 ### Azure AI Services Used
-* [AI Video Indexer (formerly Video Recognizer) API](https://www.videoindexer.ai)
-* [Form Recognizer API](https://fott-2-1.azurewebsites.net/)
+* [AI Video Indexer API](https://www.videoindexer.ai) (formerly Video Recognizer)
+* [Form Recognizer Tool](https://fott-2-1.azurewebsites.net/) (now Document Intelligence)
 * [Custom Vision](https://www.customvision.ai/)
 * Face API
 
@@ -92,7 +92,7 @@ CUSTOM_VISION_PREDICTION_RESOURCE_ID=...
 STORAGE_ACCOUNT_CONNECTION_STRING=...
 ```
 
-* For interacting with external services like the [Form Recognizer API](https://fott-2-1.azurewebsites.net/), you need to set up Cross-Origin Resource Sharing (CORS) and generate a Shared Access Signature (SAS) URI to your blob container.
+* For interacting with external services like the [Form Recognizer Tool](https://fott-2-1.azurewebsites.net/), you need to set up Cross-Origin Resource Sharing (CORS) and generate a Shared Access Signature (SAS) URI to your blob container.
 
 ### Solution Strategy
 
