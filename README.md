@@ -16,7 +16,7 @@ The program is divided into three main sections, each focusing on specific aspec
 * Image Classification and Object Detection with Azure Custom Vision
 * Deployment and Monitoring of Computer Vision Solutions
 
-&rarr; [Project: Automated Passenger Boarding Kiosk (tdb)]
+&rarr; [Project: Automated Passenger Boarding Kiosk](./project1_Automated-Passenger-Boarding-Kiosk)
 
 ###  2. Building NLP and Conversational AI Solutions
 
