@@ -60,7 +60,7 @@ The automated passenger boarding kiosk prototype exemplifies the practical impli
 
 ## Implementation
 
-## Installation
+### Installation
 * All required Python packages can be found in the [*requirements.txt*](step_5_validation_metrics_monitoring/requirements.txt) file (see step 5).
 * All environment variables have been stored in a *.env* file at the main folder of this project:
 
