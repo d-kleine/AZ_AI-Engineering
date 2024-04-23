@@ -52,6 +52,7 @@ Traditional boarding processes often entail cumbersome manual verification proce
 * [AI Video Indexer (formerly Video Recognizer) API](https://www.videoindexer.ai)
 * [Form Recognizer API](https://fott-2-1.azurewebsites.net/)
 * [Custom Vision](https://www.customvision.ai/)
+* Face API
 
 ## Project Summary
 
