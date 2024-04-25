@@ -1,4 +1,4 @@
-# AI Engineer using Microsoft Azure Nano degree program
+# AI Engineer using Microsoft Azure nano degree program
 
 ![Azure Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Microsoft_Azure_Logo.svg/1280px-Microsoft_Azure_Logo.svg.png)
 
