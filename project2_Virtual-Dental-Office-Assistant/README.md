@@ -78,3 +78,10 @@ All variables stored in the *.env* file in **ContosoDentistryChatBot** should no
 By following these steps, a comprehensive and efficient virtual assistant for the dental office was successfully implemented. The having set up the resources, everything should like this:
 
 ![Resources Overview](./screenshots/rg_resources.png)
+
+After having create all resources and running the bot, the output should like this:
+* Local test in Azure Bot's Web Chat:
+![Local Bot Test](./portal_bot_test.png)
+
+* Global test in Static Web App (HTML):
+![Website Bot Test](./website_bot_test.png)
