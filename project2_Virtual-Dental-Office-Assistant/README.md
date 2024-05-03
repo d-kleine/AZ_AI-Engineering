@@ -12,7 +12,7 @@ MicrosoftAppId= # AppID
 MicrosoftAppPassword= # AppPW (needs to be created)
 MicrosoftAppTenantId= # TenantID (only for SingleTenant, leave blank for MultiTenant)
 
-ProjectName= # name of the Custom QA project
+ProjectName= # Custom QA project name
 LanguageEndpointKey= # endpoint key of language service 
 LanguageEndpointHostName= # endpoint url, like https://(...).cognitiveservices.azure.com
 
