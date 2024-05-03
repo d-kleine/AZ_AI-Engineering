@@ -1,0 +1,9 @@
+Question	Answer	Source	Metadata	SuggestedQuestions	IsContextOnly	Prompts	QnaId	SourceDisplayName
+Can you treat my child?	We treat patients ages 6+. Patients under 18 must be accompanied by a parent or legal guardian.	FAQ.tsv		[]	False	[]	1	FAQ
+What is the youngest patient you accept?	We treat patients ages 6+. Patients under 18 must be accompanied by a parent or legal guardian.	FAQ.tsv		[]	False	[]	1	FAQ
+Can I bring my 6 year old?	We treat patients ages 6+. Patients under 18 must be accompanied by a parent or legal guardian.	FAQ.tsv		[]	False	[]	1	FAQ
+Do you treat children?	We treat patients ages 6+. Patients under 18 must be accompanied by a parent or legal guardian.	FAQ.tsv		[]	False	[]	1	FAQ
+Are you accepting new patients?	We are always accepting new patients. We're excited to meet you!	FAQ.tsv		[]	False	[]	2	FAQ
+What if I don't have insurance?	We accept patients no matter their insurance situation. There are many payment options available to you!	FAQ.tsv		[]	False	[]	3	FAQ
+I don't have insurance. Is that a problem?	We accept patients no matter their insurance situation. There are many payment options available to you!	FAQ.tsv		[]	False	[]	3	FAQ
+Can I be seen if I don't have insurance?	We accept patients no matter their insurance situation. There are many payment options available to you!	FAQ.tsv		[]	False	[]	3	FAQ

@@ -1,0 +1,409 @@
+{
+    "projectFileVersion": "2022-10-01-preview",
+    "stringIndexType": "Utf16CodeUnit",
+    "metadata": {
+        "projectKind": "Conversation",
+        "settings": {
+            "confidenceThreshold": 0,
+            "normalizeCasing": false
+        },
+        "projectName": "dentalassistant-luis",
+        "multilingual": false,
+        "description": "",
+        "language": "en-us"
+    },
+    "assets": {
+        "projectKind": "Conversation",
+        "intents": [
+            {
+                "category": "None"
+            },
+            {
+                "category": "GetAvailability"
+            },
+            {
+                "category": "ScheduleAppointment"
+            }
+        ],
+        "entities": [
+            {
+                "category": "date",
+                "compositionSetting": "combineComponents"
+            }
+        ],
+        "utterances": [
+            {
+                "text": "Can you check if there are any openings next Monday?",
+                "language": "en-us",
+                "intent": "GetAvailability",
+                "entities": [
+                    {
+                        "category": "date",
+                        "offset": 40,
+                        "length": 11
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Is there any availability left for this Friday?",
+                "language": "en-us",
+                "intent": "GetAvailability",
+                "entities": [
+                    {
+                        "category": "date",
+                        "offset": 35,
+                        "length": 11
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "When is the earliest time Dr. Smith is available?",
+                "language": "en-us",
+                "intent": "GetAvailability",
+                "entities": [
+                    {
+                        "category": "date",
+                        "offset": 8,
+                        "length": 17
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Are there any slots available tomorrow afternoon?",
+                "language": "en-us",
+                "intent": "GetAvailability",
+                "entities": [
+                    {
+                        "category": "date",
+                        "offset": 30,
+                        "length": 18
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Is the office open on weekends?",
+                "language": "en-us",
+                "intent": "GetAvailability",
+                "entities": [
+                    {
+                        "category": "date",
+                        "offset": 22,
+                        "length": 8
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What's the earliest availability for a cleaning?",
+                "language": "en-us",
+                "intent": "GetAvailability",
+                "entities": [
+                    {
+                        "category": "date",
+                        "offset": 7,
+                        "length": 25
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can I know the dentist's schedule for the coming week?",
+                "language": "en-us",
+                "intent": "GetAvailability",
+                "entities": [
+                    {
+                        "category": "date",
+                        "offset": 42,
+                        "length": 11
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Could you tell me the available times for a dental check-up?",
+                "language": "en-us",
+                "intent": "GetAvailability",
+                "entities": [
+                    {
+                        "category": "date",
+                        "offset": 22,
+                        "length": 15
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What are the operating hours for the dental office?",
+                "language": "en-us",
+                "intent": "GetAvailability",
+                "entities": [
+                    {
+                        "category": "date",
+                        "offset": 13,
+                        "length": 15
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can you tell me when the next open slot is?",
+                "language": "en-us",
+                "intent": "GetAvailability",
+                "entities": [
+                    {
+                        "category": "date",
+                        "offset": 25,
+                        "length": 14
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "I want to arrange a follow-up appointment for my braces adjustment next month.",
+                "language": "en-us",
+                "intent": "ScheduleAppointment",
+                "entities": [
+                    {
+                        "category": "date",
+                        "offset": 67,
+                        "length": 10
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Please book a dental X-ray for me on the next available date.",
+                "language": "en-us",
+                "intent": "ScheduleAppointment",
+                "entities": [
+                    {
+                        "category": "date",
+                        "offset": 41,
+                        "length": 19
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "I need to schedule a tooth extraction for the third week of July.",
+                "language": "en-us",
+                "intent": "ScheduleAppointment",
+                "entities": [
+                    {
+                        "category": "date",
+                        "offset": 46,
+                        "length": 18
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can you set an appointment for a filling next Monday?",
+                "language": "en-us",
+                "intent": "ScheduleAppointment",
+                "entities": [
+                    {
+                        "category": "date",
+                        "offset": 41,
+                        "length": 11
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "I'd like to book a check-up for the first week of August.",
+                "language": "en-us",
+                "intent": "ScheduleAppointment",
+                "entities": [
+                    {
+                        "category": "date",
+                        "offset": 36,
+                        "length": 20
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Reserve a whitening session for me in two weeks.",
+                "language": "en-us",
+                "intent": "ScheduleAppointment",
+                "entities": [
+                    {
+                        "category": "date",
+                        "offset": 35,
+                        "length": 12
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Please arrange a consultation for me in June.",
+                "language": "en-us",
+                "intent": "ScheduleAppointment",
+                "entities": [
+                    {
+                        "category": "date",
+                        "offset": 40,
+                        "length": 4
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "I want to schedule a root canal as soon as possible.",
+                "language": "en-us",
+                "intent": "ScheduleAppointment",
+                "entities": [
+                    {
+                        "category": "date",
+                        "offset": 32,
+                        "length": 19
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can you book a cleaning for me this month?",
+                "language": "en-us",
+                "intent": "ScheduleAppointment",
+                "entities": [
+                    {
+                        "category": "date",
+                        "offset": 31,
+                        "length": 10
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "I need a dental appointment next week.",
+                "language": "en-us",
+                "intent": "ScheduleAppointment",
+                "entities": [
+                    {
+                        "category": "date",
+                        "offset": 28,
+                        "length": 9
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "I want to reserve a teeth whitening session for me this month.",
+                "language": "en-us",
+                "intent": "ScheduleAppointment",
+                "entities": [
+                    {
+                        "category": "date",
+                        "offset": 51,
+                        "length": 10
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "I need to arrange a consultation for my braces in July.",
+                "language": "en-us",
+                "intent": "ScheduleAppointment",
+                "entities": [
+                    {
+                        "category": "date",
+                        "offset": 50,
+                        "length": 4
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Please set up an appointment for a root canal for me on a Saturday.",
+                "language": "en-us",
+                "intent": "ScheduleAppointment",
+                "entities": [
+                    {
+                        "category": "date",
+                        "offset": 58,
+                        "length": 8
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "I would like to schedule a teeth cleaning on the first Monday of next month.",
+                "language": "en-us",
+                "intent": "ScheduleAppointment",
+                "entities": [
+                    {
+                        "category": "date",
+                        "offset": 49,
+                        "length": 26
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can you book a dental check-up for me next month?",
+                "language": "en-us",
+                "intent": "ScheduleAppointment",
+                "entities": [
+                    {
+                        "category": "date",
+                        "offset": 38,
+                        "length": 10
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "I'd like to book an appointment for teeth whitening. When can I come in?",
+                "language": "en-us",
+                "intent": "GetAvailability",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "Do you have any availability for a dental consultation this Friday?",
+                "language": "en-us",
+                "intent": "GetAvailability",
+                "entities": [
+                    {
+                        "category": "date",
+                        "offset": 55,
+                        "length": 11
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What's the earliest appointment available for a root canal treatment?",
+                "language": "en-us",
+                "intent": "GetAvailability",
+                "entities": [
+                    {
+                        "category": "date",
+                        "offset": 11,
+                        "length": 30
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "I need to schedule a dental cleaning. What times do you have open?",
+                "language": "en-us",
+                "intent": "GetAvailability",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "When can I schedule my appointment?",
+                "language": "en-us",
+                "intent": "GetAvailability",
+                "entities": [],
+                "dataset": "Train"
+            }
+        ]
+    }
+}

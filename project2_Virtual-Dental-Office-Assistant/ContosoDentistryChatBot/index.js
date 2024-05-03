@@ -20,7 +20,7 @@ const { DentaBot } = require('./bot');
 // Create HTTP server
 const server = restify.createServer();
 server.listen(process.env.port || process.env.PORT || 3978, () => {
-    console.log(`\n${server.name} listening to ${server.url}`);
+    console.log(`\n${ server.name } listening to ${ server.url }`);
     console.log('\nGet Bot Framework Emulator: https://aka.ms/botframework-emulator');
     console.log('\nTo talk to your bot, open the emulator select "Open Bot"');
 });
@@ -57,15 +57,16 @@ adapter.onTurnError = onTurnErrorHandler;
 
 // Map configuration values values from .env file into the required format for each service.
 const QnAConfiguration = {
-    knowledgeBaseId: process.env.QnAKnowledgebaseId,
-    endpointKey: process.env.QnAAuthKey,
-    host: process.env.QnAEndpointHostName
+    knowledgeBaseId: process.env.ProjectName,
+    endpointKey: process.env.LanguageEndpointKey,
+    host: process.env.LanguageEndpointHostName
 };
 
-const LuisConfiguration = {
-    applicationId: process.env.LuisAppId,
-    endpointKey: process.env.LuisAPIKey,
-    endpoint: process.env.LuisAPIHostName,
+const CluConfiguration = {
+    projectName: process.env.CluProjectName,
+    endpointKey: process.env.CluAPIKey,
+    endpoint: process.env.CluAPIHostName,
+    deploymentName: process.env.CludeploymentName
 }
 
 const SchedulerConfiguration = {
@@ -74,7 +75,7 @@ const SchedulerConfiguration = {
 //pack each service configuration into 
 const configuration = {
     QnAConfiguration,
-    LuisConfiguration,
+    CluConfiguration,
     SchedulerConfiguration
 }
 
@@ -82,11 +83,15 @@ const configuration = {
 const myBot = new DentaBot(configuration, {});
 
 // Listen for incoming requests.
-server.post('/api/messages', (req, res) => {
-    adapter.processActivity(req, res, async (context) => {
-        // Route to main dialog.
-        await myBot.run(context);
-    });
+server.post('/api/messages', async (req, res) => {
+    try {
+        await adapter.processActivity(req, res, async (context) => {
+            // Route to main dialog.
+            await myBot.run(context);
+        });
+    } catch (error) {
+        console.error('Error processing activity:', error);
+    }
 });
 
 // Listen for Upgrade requests for Streaming.
