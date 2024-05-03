@@ -27,7 +27,7 @@ The program is divided into three main sections, each focusing on specific aspec
 * Text Analytics and Speech Services
 
 
-&rarr; [Project: Project: Dental Office Virtual Assistant (tdb)]
+&rarr; [Project: Project: Dental Office Virtual Assistant](https://github.com/d-kleine/AZ_AI-Engineering/tree/main/project2_Virtual-Dental-Office-Assistant)
 
 ### 3. Knowledge Mining
 
