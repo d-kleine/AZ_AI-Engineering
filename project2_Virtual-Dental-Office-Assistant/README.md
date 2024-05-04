@@ -27,7 +27,7 @@ SchedulerEndpoint= # endpoint URL for scheduler, like https://(...).azurewebsite
 ## Project Summary
 This project aims to create a comprehensive dental office virtual assistant using Node.js, Azure Bot, App Service, and other Azure resources. The assistant will be integrated into the Contoso Dentistry website, providing a seamless conversational interface for patients. 
 
-* The **Node.js bot application** serves as the central hub, connecting all services into a single conversational interface. It determines the flow of conversation between patients and the bot, with some of the logic based on feedback from the connected services. The bot application is deployed using Continuous Deployment Reference (GitHub CI/CD with GitHub Actions) and tested using the Microsoft Bot Framework Emulator.
+* The **Node.js bot application** serves as the central hub, connecting all services into a single conversational interface. It determines the flow of conversation between patients and the bot, with some of the logic based on feedback from the connected services. The bot application is deployed using Continuous Deployment Reference (GitHub CI/CD with GitHub Actions) and tested using Microsoft's [Bot Framework Emulator](https://learn.microsoft.com/en-us/azure/bot-service/bot-service-debug-emulator?view=azure-bot-service-4.0&tabs=javascript).
 
 * There a two Azure Cognitive Services for **Language**:
     * The **Custom Question Answering resource** contains the FAQs about the dental office. This allows the bot to answer questions when patients ask them. The Custom Question Answering resource uses natural language processing to interpret user utterances, even if it has never seen the exact phrasing before.
@@ -79,7 +79,8 @@ By following these steps, a comprehensive and efficient virtual assistant for th
 
 ![Resources Overview](./screenshots/rg_resources.png)
 
-After having create all resources and running the bot, the output should like this:
+After having create all resources and running the bot, the output should like look this:
+
 * Local test in Azure Bot's Web Chat:
 
 ![Local Bot Test](./portal_bot_test.png)
