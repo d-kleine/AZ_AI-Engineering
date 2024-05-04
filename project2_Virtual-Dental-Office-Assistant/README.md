@@ -13,12 +13,12 @@ MicrosoftAppPassword= # AppPW (needs to be created)
 MicrosoftAppTenantId= # TenantID (only for SingleTenant, leave blank for MultiTenant)
 
 ProjectName= # Custom QA project name
-LanguageEndpointKey= # endpoint key of language service 
-LanguageEndpointHostName= # endpoint url, like https://(...).cognitiveservices.azure.com
+LanguageEndpointKey= # Endpoint key of Language service 
+LanguageEndpointHostName= # Endpoint URL, like https://(...).cognitiveservices.azure.com
 
 CluProjectName= # CLU project name
 CluAPIKey= # CLU API key
-CluAPIHostName= # API URL, like https://(...).cognitiveservices.azure.com
+CluAPIHostName= # Endpoint URL, like https://(...).cognitiveservices.azure.com (same as LanguageEndpointHostName when running on the same Language service resource)
 CludeploymentName= # Deployment name
 
 SchedulerEndpoint= # endpoint URL for scheduler, like https://(...).azurewebsites.net
