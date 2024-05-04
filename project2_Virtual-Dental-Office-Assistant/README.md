@@ -18,10 +18,10 @@ LanguageEndpointHostName= # Endpoint URL, like https://(...).cognitiveservices.a
 
 CluProjectName= # CLU project name
 CluAPIKey= # CLU API key
-CluAPIHostName= # Endpoint URL, like https://(...).cognitiveservices.azure.com (same as LanguageEndpointHostName when running on the same Language service resource)
+CluAPIHostName= # Endpoint URL, like https://(...).cognitiveservices.azure.com (same as LanguageEndpointHostName when running on the same Language service)
 CludeploymentName= # Deployment name
 
-SchedulerEndpoint= # endpoint URL for scheduler, like https://(...).azurewebsites.net
+SchedulerEndpoint= # Endpoint URL for scheduler script, like https://(...).azurewebsites.net
 ```
 
 ## Project Summary
