@@ -49,7 +49,7 @@ The Dental Office Virtual Assistant project has been implemented following a str
 
 ![Azure Bot](./screenshots/bot_service.png)
 
-For the bewlow **Language services** only specific regions work, therefore I went for **East US**.
+For the below **Language services** only specific regions work, **East US** has been choosen.
 
 2. **Custom Question Answering Resource Integration**: A Custom Question Answering resource was created to handle FAQs about the dental office. The knowledge base was populated with FAQs, published, and the corresponding keys were added to the bot's environment file and the bot's web app environment variables application settings.
 
@@ -81,7 +81,9 @@ By following these steps, a comprehensive and efficient virtual assistant for th
 
 After having create all resources and running the bot, the output should like this:
 * Local test in Azure Bot's Web Chat:
+
 ![Local Bot Test](./portal_bot_test.png)
 
 * Global test in Static Web App (HTML):
+
 ![Website Bot Test](./website_bot_test.png)
