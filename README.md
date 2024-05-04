@@ -19,30 +19,27 @@ The program is divided into three main sections, each focusing on specific aspec
 &rarr; [Project: Automated Passenger Boarding Kiosk](https://github.com/d-kleine/AZ_AI-Engineering/tree/main/project1_%20Automated-Passenger-Boarding-Kiosk)
 
 ###  2. Building NLP and Conversational AI Solutions
-
 * Introduction to NLP and Conversational Solutions
 * Designing NLP and Conversational AI Solutions
 * Building Bots with the Microsoft Bot Framework
-* Integrating NLP Cognitive Services (QnA Maker, LUIS)
+* Integrating NLP Cognitive Services (Custom Question Answering, Conversational Language Understanding)
 * Text Analytics and Speech Services
-
 
 &rarr; [Project: Project: Dental Office Virtual Assistant](https://github.com/d-kleine/AZ_AI-Engineering/tree/main/project2_Virtual-Dental-Office-Assistant)
 
 ### 3. Knowledge Mining
-
 * Introduction to Knowledge Mining with Azure
 * Designing an Azure Cognitive Search Solution
 * Importing Data into Azure Cognitive Search
 * Enriching Data in Azure Cognitive Search
 * Consuming Azure Cognitive Search in an External Application
 
-&rarr; [Project:  Build an AI Enriched Corporate Training Catalog (tdb)]
+&rarr; Project:  Build an AI Enriched Corporate Training Catalog (tdb)
 
 ### Key Skills
 
-* **Building Computer Vision Solutions**: Azure form recognizer, Azure cognitive services, Azure video analyzer, Azure model and data deletion, Azure model and data export, Role-based access control, Model deployment with Azure, Application monitoring with Azure
+* **Building Computer Vision Solutions**: Azure AI services, Azure Form Recognizer, Azure Video Indexer, Azure model and data deletion, Azure model and data export, Role-based access control, Model deployment with Azure, Application monitoring
 
-* **Building NLP and Conversational AI Solutions**: Azure cognitive services, Microsoft bot framework, Azure conversational AI agents, Key phrase extraction, Entity recognition, Azure text analytics, Azure conversational AI
+* **Building NLP and Conversational AI Solutions**:  Microsoft Bot Framework (incl. Emulator, Composer), Azure Conversational AI agents, Key phrase extraction, Entity recognition, Azure text analytics, Azure Conversational AI, Language services
 
-* **Knowledge Mining**: Azure cognitive search, Azure cognitive search data import, Azure cognitive search indexers, Azure cognitive search queries, Requirements gathering, Application monitoring with Azure
+* **Knowledge Mining**: Azure Cognitive Search (data import,indexers, queries), Requirements gathering
