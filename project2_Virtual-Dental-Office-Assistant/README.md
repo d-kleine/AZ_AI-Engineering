@@ -4,7 +4,7 @@
 In the modern, bustling world of dental practice, a Dental Office Virtual Assistant stands as a game-changer, becoming an indispensable asset in the industry. This innovation bridges the gap between efficiency and excellent customer service, transforming the way dental practices operate. Harnessing the power of technology and artificial intelligence, it revolutionizes the administrative tasks, ensuring precision, speed, and consistency, while also freeing up valuable time for dental professionals to focus on what truly matters - providing top-notch dental care. The importance of a Dental Office Virtual Assistant cannot be overstated as it creates a seamless, stress-free environment, setting a new standard in the realm of dental practice management.
 
 ## Requirements
-In order to run the project you need to create the resources on Azure. Also, you need to add a *.env*. file to the folder with following information:
+In order to run the project you need to create the resources on Azure. Also, you need to add an *.env* file to the folder with following information:
 
 ```bash
 MicrosoftAppType= # SingleTenant or MultiTenant
