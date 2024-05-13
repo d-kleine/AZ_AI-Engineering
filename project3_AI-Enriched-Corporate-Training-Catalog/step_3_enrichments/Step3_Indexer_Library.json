@@ -1,0 +1,59 @@
+{
+  "@odata.context": "https://atc-aisearch.search.windows.net/$metadata#indexers/$entity",
+  "@odata.etag": "\"0x8DC71204A02D073\"",
+  "name": "azureblob-indexer",
+  "description": "",
+  "dataSourceName": "papers",
+  "skillsetName": "azureblob-skillset",
+  "targetIndexName": "azureblob-index",
+  "disabled": null,
+  "schedule": null,
+  "parameters": {
+    "batchSize": null,
+    "maxFailedItems": 0,
+    "maxFailedItemsPerBatch": 0,
+    "base64EncodeKeys": null,
+    "configuration": {
+      "dataToExtract": "contentAndMetadata",
+      "parsingMode": "default"
+    }
+  },
+  "fieldMappings": [
+    {
+      "sourceFieldName": "metadata_storage_path",
+      "targetFieldName": "metadata_storage_path",
+      "mappingFunction": {
+        "name": "base64Encode",
+        "parameters": null
+      }
+    },
+    {
+      "sourceFieldName": "publication_name",
+      "targetFieldName": "publication_name",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "publisher",
+      "targetFieldName": "publisher",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "doi",
+      "targetFieldName": "doi",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "publication_date",
+      "targetFieldName": "publication_date",
+      "mappingFunction": null
+    }
+  ],
+  "outputFieldMappings": [
+    {
+      "sourceFieldName": "/document/content/keyphrases",
+      "targetFieldName": "keyphrases"
+    }
+  ],
+  "cache": null,
+  "encryptionKey": null
+}

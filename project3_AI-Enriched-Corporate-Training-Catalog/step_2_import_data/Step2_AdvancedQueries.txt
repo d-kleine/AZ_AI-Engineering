@@ -1,0 +1,4809 @@
+### Query 1 ### 
+{
+  "@odata.context": "https://atc-aisearch.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+  "@search.nextPageParameters": {
+    "search": "search=AI&$select=duration,title&$filter=duration lt 20",
+    "skip": 50
+  },
+  "value": [
+    {
+      "@search.score": 17.164331,
+      "Key": "ms-learn13f442b0-f1d1-4402-8c3e-13f0c8b6ce8d",
+      "description": "Create an Azure Cognitive Search solution",
+      "duration": "63",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-search",
+      "rating_average": 4.91,
+      "rating_count": 45,
+      "role": "ai-engineer",
+      "source": "MS Learn",
+      "title": "Create an Azure Cognitive Search solution",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-azure-cognitive-search-solution/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 16.195065,
+      "Key": "ms-learn5244e529-28c6-4b6c-bba0-a3edcb956327",
+      "description": "Create a knowledge store with Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-search",
+      "rating_average": 4.79,
+      "rating_count": 42,
+      "role": "ai-engineer",
+      "source": "MS Learn",
+      "title": "Create a knowledge store with Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-knowledge-store-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 16.195065,
+      "Key": "ms-learn7e28c65f-5a23-47e7-b575-66139b3a43ca",
+      "description": "Create a custom skill for Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-search",
+      "rating_average": 4.81,
+      "rating_count": 31,
+      "role": "ai-engineer",
+      "source": "MS Learn",
+      "title": "Create a custom skill for Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-enrichment-pipeline-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 14.791975,
+      "Key": "ms-learn683814dd-934d-4e72-a5fd-81a3c8037999",
+      "description": "Create an Azure Cognitive Search solution",
+      "duration": "63",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-search",
+      "rating_average": 4.91,
+      "rating_count": 45,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Create an Azure Cognitive Search solution",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-azure-cognitive-search-solution/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 14.791975,
+      "Key": "ms-learne00a9b7f-cd37-41b1-87d3-d87018dcf606",
+      "description": "Create an Azure Cognitive Search solution",
+      "duration": "63",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-search",
+      "rating_average": 4.91,
+      "rating_count": 45,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Create an Azure Cognitive Search solution",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-azure-cognitive-search-solution/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 14.695646,
+      "Key": "ms-learn293c8e0b-a6b6-4da7-8e15-cc8672be21cf",
+      "description": "Explore Azure Cognitive Search to discover how to create an index, import data, and query the index for better search results.",
+      "duration": "53",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-search",
+      "rating_average": 4.61,
+      "rating_count": 217,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Introduction to Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 13.822708,
+      "Key": "ms-learn6057c369-b74e-459f-851c-8e771063754b",
+      "description": "Create a custom skill for Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-search",
+      "rating_average": 4.81,
+      "rating_count": 31,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Create a custom skill for Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-enrichment-pipeline-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 13.822708,
+      "Key": "ms-learn78329655-7993-4435-a246-b73e555909f3",
+      "description": "Create a custom skill for Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-search",
+      "rating_average": 4.81,
+      "rating_count": 31,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Create a custom skill for Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-enrichment-pipeline-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 13.822708,
+      "Key": "ms-learnc960fef1-1977-4b34-8f09-f00cbe326e34",
+      "description": "Create a knowledge store with Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-search",
+      "rating_average": 4.79,
+      "rating_count": 42,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Create a knowledge store with Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-knowledge-store-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 13.822708,
+      "Key": "ms-learnfac634ec-2700-4257-85c1-066454b639d4",
+      "description": "Create a knowledge store with Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-search",
+      "rating_average": 4.79,
+      "rating_count": 42,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Create a knowledge store with Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-knowledge-store-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 13.2997675,
+      "Key": "ms-learn0fcb600b-4bb5-480c-97ed-63cf6d842fe8",
+      "description": "Create a custom skill for Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "vs-code",
+      "rating_average": 4.81,
+      "rating_count": 31,
+      "role": "ai-engineer",
+      "source": "MS Learn",
+      "title": "Create a custom skill for Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-enrichment-pipeline-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 13.2997675,
+      "Key": "ms-learnf41c2cab-9943-42db-a0c9-8bed47619c53",
+      "description": "Create a custom skill for Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-functions",
+      "rating_average": 4.81,
+      "rating_count": 31,
+      "role": "ai-engineer",
+      "source": "MS Learn",
+      "title": "Create a custom skill for Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-enrichment-pipeline-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 11.800348,
+      "Key": "ms-learn67d5d774-bb50-4f9f-8507-b1d7500772e6",
+      "description": "Explore Azure Cognitive Search to discover how to create an index, import data, and query the index for better search results.",
+      "duration": "53",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure",
+      "rating_average": 4.61,
+      "rating_count": 217,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Introduction to Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.92741,
+      "Key": "ms-learn1918bcce-cb5a-4db1-871e-052f4af46b79",
+      "description": "Create a custom skill for Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-functions",
+      "rating_average": 4.81,
+      "rating_count": 31,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Create a custom skill for Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-enrichment-pipeline-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.92741,
+      "Key": "ms-learn2f19c7cb-45b5-45f1-a6ec-00409eadab7b",
+      "description": "Create a custom skill for Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-functions",
+      "rating_average": 4.81,
+      "rating_count": 31,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Create a custom skill for Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-enrichment-pipeline-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.92741,
+      "Key": "ms-learn4905153f-1a39-40b4-bcc2-b07638f69296",
+      "description": "Create a custom skill for Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "vs-code",
+      "rating_average": 4.81,
+      "rating_count": 31,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Create a custom skill for Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-enrichment-pipeline-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.92741,
+      "Key": "ms-learna838646f-97c5-4312-b39d-f419a1312b58",
+      "description": "Create a custom skill for Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "vs-code",
+      "rating_average": 4.81,
+      "rating_count": 31,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Create a custom skill for Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-enrichment-pipeline-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.323752,
+      "Key": "ms-learn13a499a7-5603-4803-b239-a48c9a217e67",
+      "description": "Learn to search and organize repository history by using filters, blame, and cross-linking on GitHub.",
+      "duration": "38",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure",
+      "rating_average": 4.79,
+      "rating_count": 241,
+      "role": "administrator",
+      "source": "MS Learn",
+      "title": "Search and organize repository history by using GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/search-organize-repository-history-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.323752,
+      "Key": "ms-learn3771573c-1c94-4adf-9b70-021b7f096f9d",
+      "description": "Learn to search and organize repository history by using filters, blame, and cross-linking on GitHub.",
+      "duration": "38",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "github",
+      "rating_average": 4.79,
+      "rating_count": 241,
+      "role": "administrator",
+      "source": "MS Learn",
+      "title": "Search and organize repository history by using GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/search-organize-repository-history-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.323752,
+      "Key": "ms-learn4d782479-7739-4f0f-a5bb-77d01d11f48d",
+      "description": "Learn to search and organize repository history by using filters, blame, and cross-linking on GitHub.",
+      "duration": "38",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "github",
+      "rating_average": 4.79,
+      "rating_count": 241,
+      "role": "devops-engineer",
+      "source": "MS Learn",
+      "title": "Search and organize repository history by using GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/search-organize-repository-history-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.323752,
+      "Key": "ms-learn6b15a22b-e603-48a3-8d61-c01ffce2dc52",
+      "description": "Learn to search and organize repository history by using filters, blame, and cross-linking on GitHub.",
+      "duration": "38",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure",
+      "rating_average": 4.79,
+      "rating_count": 241,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Search and organize repository history by using GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/search-organize-repository-history-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.323752,
+      "Key": "ms-learn736cf038-17f7-4270-a979-ac94e3483917",
+      "description": "Learn to search and organize repository history by using filters, blame, and cross-linking on GitHub.",
+      "duration": "38",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "github",
+      "rating_average": 4.79,
+      "rating_count": 241,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Search and organize repository history by using GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/search-organize-repository-history-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.323752,
+      "Key": "ms-learnab300ac1-0df5-46ac-b8f8-9d50cfe297fb",
+      "description": "Learn to search and organize repository history by using filters, blame, and cross-linking on GitHub.",
+      "duration": "38",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "github",
+      "rating_average": 4.79,
+      "rating_count": 241,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Search and organize repository history by using GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/search-organize-repository-history-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.323752,
+      "Key": "ms-learncfe0bf9b-74a0-46de-934a-9ff386ff1fa5",
+      "description": "Learn to search and organize repository history by using filters, blame, and cross-linking on GitHub.",
+      "duration": "38",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure",
+      "rating_average": 4.79,
+      "rating_count": 241,
+      "role": "devops-engineer",
+      "source": "MS Learn",
+      "title": "Search and organize repository history by using GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/search-organize-repository-history-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.323752,
+      "Key": "ms-learne4d66639-f3bf-414c-a062-ea7c7e2f2974",
+      "description": "Learn to search and organize repository history by using filters, blame, and cross-linking on GitHub.",
+      "duration": "38",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure",
+      "rating_average": 4.79,
+      "rating_count": 241,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Search and organize repository history by using GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/search-organize-repository-history-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 7.25819,
+      "Key": "ms-learn359e902e-9270-42de-9687-536b9fe0164c",
+      "description": "Learn about AI Builder licensing and how to buy and manage your AI Builder licenses.",
+      "duration": "40",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.59,
+      "rating_count": 17,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder licensing",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-licensing/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 7.25819,
+      "Key": "ms-learnba340cd7-5db3-42f8-bdd7-036a6974f5f1",
+      "description": "Learn about AI Builder licensing and how to buy and manage your AI Builder licenses.",
+      "duration": "40",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.59,
+      "rating_count": 17,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder licensing",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-licensing/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.8102965,
+      "Key": "ms-learn0197c8c6-dfc4-450b-9fa7-3f610977cc79",
+      "description": "Learn about AI Builder Text recognition and how to use it with other Power Platform products.",
+      "duration": "55",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.61,
+      "rating_count": 197,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder Text recognition",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-text-recognition/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.8102965,
+      "Key": "ms-learn15e073b4-6de0-4d11-b12a-32d65151d584",
+      "description": "Learn about AI Builder Sentiment analysis and how to use it with other Power Platform products.",
+      "duration": "55",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.65,
+      "rating_count": 170,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder Sentiment analysis",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-sentiment-analysis/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.8102965,
+      "Key": "ms-learn2adf55dd-65ba-4833-976a-c6452dd7a775",
+      "description": "Explore AI Builder Language detection and learn how to use it with other Power Platform products.",
+      "duration": "27",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.63,
+      "rating_count": 139,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder Language detection",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-language-detection/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.8102965,
+      "Key": "ms-learn73883ec6-3887-45a6-a027-bc9f2892392b",
+      "description": "Learn about AI Builder Text recognition and how to use it with other Power Platform products.",
+      "duration": "55",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.61,
+      "rating_count": 197,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder Text recognition",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-text-recognition/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.8102965,
+      "Key": "ms-learna2535dbf-ec97-4265-a26b-5b5c0aa689c3",
+      "description": "Learn the basics of AI Builder Object detection and how it can benefit your organization.",
+      "duration": "25",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.73,
+      "rating_count": 147,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder Object detection",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-object-detection/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.8102965,
+      "Key": "ms-learnba849c68-1b7c-475d-8ea9-a9e255411450",
+      "description": "Learn the basics of AI Builder Object detection and how it can benefit your organization.",
+      "duration": "25",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.73,
+      "rating_count": 147,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder Object detection",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-object-detection/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.8102965,
+      "Key": "ms-learnd56b0c83-5e61-466a-972b-b95682fcfeb2",
+      "description": "Explore AI Builder Language detection and learn how to use it with other Power Platform products.",
+      "duration": "27",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.63,
+      "rating_count": 139,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder Language detection",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-language-detection/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.8102965,
+      "Key": "ms-learnfc2cc759-b7e1-4d52-82f4-c26e23404919",
+      "description": "Learn about AI Builder Sentiment analysis and how to use it with other Power Platform products.",
+      "duration": "55",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.65,
+      "rating_count": 170,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder Sentiment analysis",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-sentiment-analysis/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.678481,
+      "Key": "ms-learn683b3d6c-a177-4384-a4cb-6f461202de0e",
+      "description": "Learn the basics of AI Builder usage in Microsoft Power Automate and how it can benefit your organization.",
+      "duration": "60",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.71,
+      "rating_count": 702,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Use AI Builder in Power Automate",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/ai-builder-power-automate/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.678481,
+      "Key": "ms-learna2cadb41-c6a9-4c0a-a9df-6054df03bd5f",
+      "description": "Explore the AI Builder Key phrase extraction model and learn how to use it with other Power Platform products.",
+      "duration": "52",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.67,
+      "rating_count": 178,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Introduction to AI Builder Key phrase extraction",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-key-phrase-extraction/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.678481,
+      "Key": "ms-learneedc2427-1be9-4593-8c65-a135f852ddff",
+      "description": "Explore the AI Builder Key phrase extraction model and learn how to use it with other Power Platform products.",
+      "duration": "52",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.67,
+      "rating_count": 178,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Introduction to AI Builder Key phrase extraction",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-key-phrase-extraction/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.634366,
+      "Key": "ms-learn7be24452-07d1-4acc-99b3-89b901049505",
+      "description": "Get started with AI on Azure",
+      "duration": "34",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-machine-learning",
+      "rating_average": 4.78,
+      "rating_count": 10997,
+      "role": "ai-engineer",
+      "source": "MS Learn",
+      "title": "Get started with AI on Azure",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-ai-fundamentals/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.634366,
+      "Key": "ms-learnbdb45f14-e397-40ab-bf99-d3ff1cc0ea43",
+      "description": "Get started with AI on Azure",
+      "duration": "34",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-bot-service",
+      "rating_average": 4.78,
+      "rating_count": 10997,
+      "role": "ai-engineer",
+      "source": "MS Learn",
+      "title": "Get started with AI on Azure",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-ai-fundamentals/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.634366,
+      "Key": "ms-learnefcdc4e3-d588-4b25-b109-65b7c593572b",
+      "description": "Get started with AI on Azure",
+      "duration": "34",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-services",
+      "rating_average": 4.78,
+      "rating_count": 10997,
+      "role": "ai-engineer",
+      "source": "MS Learn",
+      "title": "Get started with AI on Azure",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-ai-fundamentals/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.6089506,
+      "Key": "ms-learn13636881-10bb-406c-a7a0-4e77a1e37d5a",
+      "description": "Learn the basics of invoice processing in AI Builder and how it can benefit your organization.",
+      "duration": "10",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.81,
+      "rating_count": 21,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Get started with invoice processing in AI Builder",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/ai-builder-invoice-processing/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.6089506,
+      "Key": "ms-learn2f945536-a4a5-4c71-983d-717dba1a40c6",
+      "description": "Learn the basics of receipt processing in AI Builder and how it can benefit your organization.",
+      "duration": "12",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.79,
+      "rating_count": 208,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Get started with receipt processing in AI Builder",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/ai-builder-receipt-processing/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.6089506,
+      "Key": "ms-learn538855b9-afd9-4877-8730-2f93256b0ad2",
+      "description": "Learn the basics of receipt processing in AI Builder and how it can benefit your organization.",
+      "duration": "12",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.79,
+      "rating_count": 208,
+      "role": "administrator",
+      "source": "MS Learn",
+      "title": "Get started with receipt processing in AI Builder",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/ai-builder-receipt-processing/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.6089506,
+      "Key": "ms-learnb1ba00e9-49f3-4fb0-8cba-d67a7d207f84",
+      "description": "Learn how to use Ai Builder Text Recognition to automate the tracking of shipments.",
+      "duration": "108",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.8,
+      "rating_count": 10,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Apply AI Builder Text Recognition in the transportation industry",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/apply-ai-builder-text-recognition-transportation-industry/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.6089506,
+      "Key": "ms-learnb4303e0a-a9ba-4900-a370-4ff2f1e43ba0",
+      "description": "Learn how to use Ai Builder Text Recognition to automate the tracking of shipments.",
+      "duration": "108",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.8,
+      "rating_count": 10,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Apply AI Builder Text Recognition in the transportation industry",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/apply-ai-builder-text-recognition-transportation-industry/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.6089506,
+      "Key": "ms-learnfd9c0ab6-fac1-4786-9d9e-319d219af5ee",
+      "description": "Learn the basics of invoice processing in AI Builder and how it can benefit your organization.",
+      "duration": "10",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.81,
+      "rating_count": 21,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Get started with invoice processing in AI Builder",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/ai-builder-invoice-processing/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.4981384,
+      "Key": "ms-learn11a560e9-d107-4229-8b6b-f99cf3c4920b",
+      "description": "This self-paced module helps you build an AI model from the beginning and shows how you can use it in your business without writing a single line of code.",
+      "duration": "30",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.75,
+      "rating_count": 1744,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.4981384,
+      "Key": "ms-learn2b006004-9810-4dd1-9232-694e89f5510d",
+      "description": "This self-paced module helps you build an AI model from the beginning and shows how you can use it in your business without writing a single line of code.",
+      "duration": "30",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.75,
+      "rating_count": 1744,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.4771347,
+      "Key": "ms-learn1545c987-7064-4af9-b056-b1e0c2669385",
+      "description": "Learn about AI Builder Business card reader and how to use it in Microsoft Power Apps and Power Automate.",
+      "duration": "90",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.62,
+      "rating_count": 157,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder Business card reader",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-business-card-reader/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    }
+  ],
+  "@odata.nextLink": "https://atc-aisearch.search.windows.net/indexes/azuretable-index/docs/search?api-version=2024-03-01-preview"
+}
+
+### Query 2 ###
+{
+  "@odata.context": "https://atc-aisearch.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+  "@search.nextPageParameters": {
+    "search": "search=AI&$select=title,level&facet=level",
+    "skip": 50
+  },
+  "value": [
+    {
+      "@search.score": 17.164331,
+      "Key": "ms-learn13f442b0-f1d1-4402-8c3e-13f0c8b6ce8d",
+      "description": "Create an Azure Cognitive Search solution",
+      "duration": "63",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-search",
+      "rating_average": 4.91,
+      "rating_count": 45,
+      "role": "ai-engineer",
+      "source": "MS Learn",
+      "title": "Create an Azure Cognitive Search solution",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-azure-cognitive-search-solution/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 16.195065,
+      "Key": "ms-learn5244e529-28c6-4b6c-bba0-a3edcb956327",
+      "description": "Create a knowledge store with Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-search",
+      "rating_average": 4.79,
+      "rating_count": 42,
+      "role": "ai-engineer",
+      "source": "MS Learn",
+      "title": "Create a knowledge store with Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-knowledge-store-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 16.195065,
+      "Key": "ms-learn7e28c65f-5a23-47e7-b575-66139b3a43ca",
+      "description": "Create a custom skill for Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-search",
+      "rating_average": 4.81,
+      "rating_count": 31,
+      "role": "ai-engineer",
+      "source": "MS Learn",
+      "title": "Create a custom skill for Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-enrichment-pipeline-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 14.791975,
+      "Key": "ms-learn683814dd-934d-4e72-a5fd-81a3c8037999",
+      "description": "Create an Azure Cognitive Search solution",
+      "duration": "63",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-search",
+      "rating_average": 4.91,
+      "rating_count": 45,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Create an Azure Cognitive Search solution",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-azure-cognitive-search-solution/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 14.791975,
+      "Key": "ms-learne00a9b7f-cd37-41b1-87d3-d87018dcf606",
+      "description": "Create an Azure Cognitive Search solution",
+      "duration": "63",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-search",
+      "rating_average": 4.91,
+      "rating_count": 45,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Create an Azure Cognitive Search solution",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-azure-cognitive-search-solution/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 14.695646,
+      "Key": "ms-learn293c8e0b-a6b6-4da7-8e15-cc8672be21cf",
+      "description": "Explore Azure Cognitive Search to discover how to create an index, import data, and query the index for better search results.",
+      "duration": "53",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-search",
+      "rating_average": 4.61,
+      "rating_count": 217,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Introduction to Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 13.822708,
+      "Key": "ms-learn6057c369-b74e-459f-851c-8e771063754b",
+      "description": "Create a custom skill for Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-search",
+      "rating_average": 4.81,
+      "rating_count": 31,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Create a custom skill for Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-enrichment-pipeline-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 13.822708,
+      "Key": "ms-learn78329655-7993-4435-a246-b73e555909f3",
+      "description": "Create a custom skill for Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-search",
+      "rating_average": 4.81,
+      "rating_count": 31,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Create a custom skill for Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-enrichment-pipeline-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 13.822708,
+      "Key": "ms-learnc960fef1-1977-4b34-8f09-f00cbe326e34",
+      "description": "Create a knowledge store with Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-search",
+      "rating_average": 4.79,
+      "rating_count": 42,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Create a knowledge store with Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-knowledge-store-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 13.822708,
+      "Key": "ms-learnfac634ec-2700-4257-85c1-066454b639d4",
+      "description": "Create a knowledge store with Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-search",
+      "rating_average": 4.79,
+      "rating_count": 42,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Create a knowledge store with Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-knowledge-store-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 13.2997675,
+      "Key": "ms-learn0fcb600b-4bb5-480c-97ed-63cf6d842fe8",
+      "description": "Create a custom skill for Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "vs-code",
+      "rating_average": 4.81,
+      "rating_count": 31,
+      "role": "ai-engineer",
+      "source": "MS Learn",
+      "title": "Create a custom skill for Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-enrichment-pipeline-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 13.2997675,
+      "Key": "ms-learnf41c2cab-9943-42db-a0c9-8bed47619c53",
+      "description": "Create a custom skill for Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-functions",
+      "rating_average": 4.81,
+      "rating_count": 31,
+      "role": "ai-engineer",
+      "source": "MS Learn",
+      "title": "Create a custom skill for Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-enrichment-pipeline-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 11.800348,
+      "Key": "ms-learn67d5d774-bb50-4f9f-8507-b1d7500772e6",
+      "description": "Explore Azure Cognitive Search to discover how to create an index, import data, and query the index for better search results.",
+      "duration": "53",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure",
+      "rating_average": 4.61,
+      "rating_count": 217,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Introduction to Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.92741,
+      "Key": "ms-learn1918bcce-cb5a-4db1-871e-052f4af46b79",
+      "description": "Create a custom skill for Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-functions",
+      "rating_average": 4.81,
+      "rating_count": 31,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Create a custom skill for Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-enrichment-pipeline-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.92741,
+      "Key": "ms-learn2f19c7cb-45b5-45f1-a6ec-00409eadab7b",
+      "description": "Create a custom skill for Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-functions",
+      "rating_average": 4.81,
+      "rating_count": 31,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Create a custom skill for Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-enrichment-pipeline-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.92741,
+      "Key": "ms-learn4905153f-1a39-40b4-bcc2-b07638f69296",
+      "description": "Create a custom skill for Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "vs-code",
+      "rating_average": 4.81,
+      "rating_count": 31,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Create a custom skill for Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-enrichment-pipeline-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.92741,
+      "Key": "ms-learna838646f-97c5-4312-b39d-f419a1312b58",
+      "description": "Create a custom skill for Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "vs-code",
+      "rating_average": 4.81,
+      "rating_count": 31,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Create a custom skill for Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-enrichment-pipeline-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.323752,
+      "Key": "ms-learn13a499a7-5603-4803-b239-a48c9a217e67",
+      "description": "Learn to search and organize repository history by using filters, blame, and cross-linking on GitHub.",
+      "duration": "38",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure",
+      "rating_average": 4.79,
+      "rating_count": 241,
+      "role": "administrator",
+      "source": "MS Learn",
+      "title": "Search and organize repository history by using GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/search-organize-repository-history-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.323752,
+      "Key": "ms-learn3771573c-1c94-4adf-9b70-021b7f096f9d",
+      "description": "Learn to search and organize repository history by using filters, blame, and cross-linking on GitHub.",
+      "duration": "38",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "github",
+      "rating_average": 4.79,
+      "rating_count": 241,
+      "role": "administrator",
+      "source": "MS Learn",
+      "title": "Search and organize repository history by using GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/search-organize-repository-history-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.323752,
+      "Key": "ms-learn4d782479-7739-4f0f-a5bb-77d01d11f48d",
+      "description": "Learn to search and organize repository history by using filters, blame, and cross-linking on GitHub.",
+      "duration": "38",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "github",
+      "rating_average": 4.79,
+      "rating_count": 241,
+      "role": "devops-engineer",
+      "source": "MS Learn",
+      "title": "Search and organize repository history by using GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/search-organize-repository-history-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.323752,
+      "Key": "ms-learn6b15a22b-e603-48a3-8d61-c01ffce2dc52",
+      "description": "Learn to search and organize repository history by using filters, blame, and cross-linking on GitHub.",
+      "duration": "38",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure",
+      "rating_average": 4.79,
+      "rating_count": 241,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Search and organize repository history by using GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/search-organize-repository-history-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.323752,
+      "Key": "ms-learn736cf038-17f7-4270-a979-ac94e3483917",
+      "description": "Learn to search and organize repository history by using filters, blame, and cross-linking on GitHub.",
+      "duration": "38",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "github",
+      "rating_average": 4.79,
+      "rating_count": 241,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Search and organize repository history by using GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/search-organize-repository-history-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.323752,
+      "Key": "ms-learnab300ac1-0df5-46ac-b8f8-9d50cfe297fb",
+      "description": "Learn to search and organize repository history by using filters, blame, and cross-linking on GitHub.",
+      "duration": "38",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "github",
+      "rating_average": 4.79,
+      "rating_count": 241,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Search and organize repository history by using GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/search-organize-repository-history-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.323752,
+      "Key": "ms-learncfe0bf9b-74a0-46de-934a-9ff386ff1fa5",
+      "description": "Learn to search and organize repository history by using filters, blame, and cross-linking on GitHub.",
+      "duration": "38",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure",
+      "rating_average": 4.79,
+      "rating_count": 241,
+      "role": "devops-engineer",
+      "source": "MS Learn",
+      "title": "Search and organize repository history by using GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/search-organize-repository-history-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.323752,
+      "Key": "ms-learne4d66639-f3bf-414c-a062-ea7c7e2f2974",
+      "description": "Learn to search and organize repository history by using filters, blame, and cross-linking on GitHub.",
+      "duration": "38",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure",
+      "rating_average": 4.79,
+      "rating_count": 241,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Search and organize repository history by using GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/search-organize-repository-history-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 7.25819,
+      "Key": "ms-learn359e902e-9270-42de-9687-536b9fe0164c",
+      "description": "Learn about AI Builder licensing and how to buy and manage your AI Builder licenses.",
+      "duration": "40",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.59,
+      "rating_count": 17,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder licensing",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-licensing/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 7.25819,
+      "Key": "ms-learnba340cd7-5db3-42f8-bdd7-036a6974f5f1",
+      "description": "Learn about AI Builder licensing and how to buy and manage your AI Builder licenses.",
+      "duration": "40",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.59,
+      "rating_count": 17,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder licensing",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-licensing/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.8102965,
+      "Key": "ms-learn0197c8c6-dfc4-450b-9fa7-3f610977cc79",
+      "description": "Learn about AI Builder Text recognition and how to use it with other Power Platform products.",
+      "duration": "55",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.61,
+      "rating_count": 197,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder Text recognition",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-text-recognition/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.8102965,
+      "Key": "ms-learn15e073b4-6de0-4d11-b12a-32d65151d584",
+      "description": "Learn about AI Builder Sentiment analysis and how to use it with other Power Platform products.",
+      "duration": "55",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.65,
+      "rating_count": 170,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder Sentiment analysis",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-sentiment-analysis/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.8102965,
+      "Key": "ms-learn2adf55dd-65ba-4833-976a-c6452dd7a775",
+      "description": "Explore AI Builder Language detection and learn how to use it with other Power Platform products.",
+      "duration": "27",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.63,
+      "rating_count": 139,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder Language detection",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-language-detection/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.8102965,
+      "Key": "ms-learn73883ec6-3887-45a6-a027-bc9f2892392b",
+      "description": "Learn about AI Builder Text recognition and how to use it with other Power Platform products.",
+      "duration": "55",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.61,
+      "rating_count": 197,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder Text recognition",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-text-recognition/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.8102965,
+      "Key": "ms-learna2535dbf-ec97-4265-a26b-5b5c0aa689c3",
+      "description": "Learn the basics of AI Builder Object detection and how it can benefit your organization.",
+      "duration": "25",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.73,
+      "rating_count": 147,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder Object detection",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-object-detection/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.8102965,
+      "Key": "ms-learnba849c68-1b7c-475d-8ea9-a9e255411450",
+      "description": "Learn the basics of AI Builder Object detection and how it can benefit your organization.",
+      "duration": "25",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.73,
+      "rating_count": 147,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder Object detection",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-object-detection/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.8102965,
+      "Key": "ms-learnd56b0c83-5e61-466a-972b-b95682fcfeb2",
+      "description": "Explore AI Builder Language detection and learn how to use it with other Power Platform products.",
+      "duration": "27",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.63,
+      "rating_count": 139,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder Language detection",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-language-detection/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.8102965,
+      "Key": "ms-learnfc2cc759-b7e1-4d52-82f4-c26e23404919",
+      "description": "Learn about AI Builder Sentiment analysis and how to use it with other Power Platform products.",
+      "duration": "55",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.65,
+      "rating_count": 170,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder Sentiment analysis",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-sentiment-analysis/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.678481,
+      "Key": "ms-learn683b3d6c-a177-4384-a4cb-6f461202de0e",
+      "description": "Learn the basics of AI Builder usage in Microsoft Power Automate and how it can benefit your organization.",
+      "duration": "60",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.71,
+      "rating_count": 702,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Use AI Builder in Power Automate",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/ai-builder-power-automate/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.678481,
+      "Key": "ms-learna2cadb41-c6a9-4c0a-a9df-6054df03bd5f",
+      "description": "Explore the AI Builder Key phrase extraction model and learn how to use it with other Power Platform products.",
+      "duration": "52",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.67,
+      "rating_count": 178,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Introduction to AI Builder Key phrase extraction",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-key-phrase-extraction/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.678481,
+      "Key": "ms-learneedc2427-1be9-4593-8c65-a135f852ddff",
+      "description": "Explore the AI Builder Key phrase extraction model and learn how to use it with other Power Platform products.",
+      "duration": "52",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.67,
+      "rating_count": 178,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Introduction to AI Builder Key phrase extraction",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-key-phrase-extraction/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.634366,
+      "Key": "ms-learn7be24452-07d1-4acc-99b3-89b901049505",
+      "description": "Get started with AI on Azure",
+      "duration": "34",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-machine-learning",
+      "rating_average": 4.78,
+      "rating_count": 10997,
+      "role": "ai-engineer",
+      "source": "MS Learn",
+      "title": "Get started with AI on Azure",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-ai-fundamentals/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.634366,
+      "Key": "ms-learnbdb45f14-e397-40ab-bf99-d3ff1cc0ea43",
+      "description": "Get started with AI on Azure",
+      "duration": "34",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-bot-service",
+      "rating_average": 4.78,
+      "rating_count": 10997,
+      "role": "ai-engineer",
+      "source": "MS Learn",
+      "title": "Get started with AI on Azure",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-ai-fundamentals/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.634366,
+      "Key": "ms-learnefcdc4e3-d588-4b25-b109-65b7c593572b",
+      "description": "Get started with AI on Azure",
+      "duration": "34",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-services",
+      "rating_average": 4.78,
+      "rating_count": 10997,
+      "role": "ai-engineer",
+      "source": "MS Learn",
+      "title": "Get started with AI on Azure",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-ai-fundamentals/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.6089506,
+      "Key": "ms-learn13636881-10bb-406c-a7a0-4e77a1e37d5a",
+      "description": "Learn the basics of invoice processing in AI Builder and how it can benefit your organization.",
+      "duration": "10",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.81,
+      "rating_count": 21,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Get started with invoice processing in AI Builder",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/ai-builder-invoice-processing/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.6089506,
+      "Key": "ms-learn2f945536-a4a5-4c71-983d-717dba1a40c6",
+      "description": "Learn the basics of receipt processing in AI Builder and how it can benefit your organization.",
+      "duration": "12",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.79,
+      "rating_count": 208,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Get started with receipt processing in AI Builder",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/ai-builder-receipt-processing/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.6089506,
+      "Key": "ms-learn538855b9-afd9-4877-8730-2f93256b0ad2",
+      "description": "Learn the basics of receipt processing in AI Builder and how it can benefit your organization.",
+      "duration": "12",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.79,
+      "rating_count": 208,
+      "role": "administrator",
+      "source": "MS Learn",
+      "title": "Get started with receipt processing in AI Builder",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/ai-builder-receipt-processing/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.6089506,
+      "Key": "ms-learnb1ba00e9-49f3-4fb0-8cba-d67a7d207f84",
+      "description": "Learn how to use Ai Builder Text Recognition to automate the tracking of shipments.",
+      "duration": "108",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.8,
+      "rating_count": 10,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Apply AI Builder Text Recognition in the transportation industry",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/apply-ai-builder-text-recognition-transportation-industry/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.6089506,
+      "Key": "ms-learnb4303e0a-a9ba-4900-a370-4ff2f1e43ba0",
+      "description": "Learn how to use Ai Builder Text Recognition to automate the tracking of shipments.",
+      "duration": "108",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.8,
+      "rating_count": 10,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Apply AI Builder Text Recognition in the transportation industry",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/apply-ai-builder-text-recognition-transportation-industry/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.6089506,
+      "Key": "ms-learnfd9c0ab6-fac1-4786-9d9e-319d219af5ee",
+      "description": "Learn the basics of invoice processing in AI Builder and how it can benefit your organization.",
+      "duration": "10",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.81,
+      "rating_count": 21,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Get started with invoice processing in AI Builder",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/ai-builder-invoice-processing/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.4981384,
+      "Key": "ms-learn11a560e9-d107-4229-8b6b-f99cf3c4920b",
+      "description": "This self-paced module helps you build an AI model from the beginning and shows how you can use it in your business without writing a single line of code.",
+      "duration": "30",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.75,
+      "rating_count": 1744,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.4981384,
+      "Key": "ms-learn2b006004-9810-4dd1-9232-694e89f5510d",
+      "description": "This self-paced module helps you build an AI model from the beginning and shows how you can use it in your business without writing a single line of code.",
+      "duration": "30",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.75,
+      "rating_count": 1744,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.4771347,
+      "Key": "ms-learn1545c987-7064-4af9-b056-b1e0c2669385",
+      "description": "Learn about AI Builder Business card reader and how to use it in Microsoft Power Apps and Power Automate.",
+      "duration": "90",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.62,
+      "rating_count": 157,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder Business card reader",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-business-card-reader/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    }
+  ],
+  "@odata.nextLink": "https://atc-aisearch.search.windows.net/indexes/azuretable-index/docs/search?api-version=2024-03-01-preview"
+}
+
+### Query 3 ###
+{
+  "@odata.context": "https://atc-aisearch.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+  "@search.nextPageParameters": {
+    "search": "search=AI&$select=title,role&facet=role",
+    "skip": 50
+  },
+  "value": [
+    {
+      "@search.score": 17.164331,
+      "Key": "ms-learn13f442b0-f1d1-4402-8c3e-13f0c8b6ce8d",
+      "description": "Create an Azure Cognitive Search solution",
+      "duration": "63",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-search",
+      "rating_average": 4.91,
+      "rating_count": 45,
+      "role": "ai-engineer",
+      "source": "MS Learn",
+      "title": "Create an Azure Cognitive Search solution",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-azure-cognitive-search-solution/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 16.195065,
+      "Key": "ms-learn5244e529-28c6-4b6c-bba0-a3edcb956327",
+      "description": "Create a knowledge store with Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-search",
+      "rating_average": 4.79,
+      "rating_count": 42,
+      "role": "ai-engineer",
+      "source": "MS Learn",
+      "title": "Create a knowledge store with Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-knowledge-store-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 16.195065,
+      "Key": "ms-learn7e28c65f-5a23-47e7-b575-66139b3a43ca",
+      "description": "Create a custom skill for Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-search",
+      "rating_average": 4.81,
+      "rating_count": 31,
+      "role": "ai-engineer",
+      "source": "MS Learn",
+      "title": "Create a custom skill for Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-enrichment-pipeline-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 14.791975,
+      "Key": "ms-learn683814dd-934d-4e72-a5fd-81a3c8037999",
+      "description": "Create an Azure Cognitive Search solution",
+      "duration": "63",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-search",
+      "rating_average": 4.91,
+      "rating_count": 45,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Create an Azure Cognitive Search solution",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-azure-cognitive-search-solution/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 14.791975,
+      "Key": "ms-learne00a9b7f-cd37-41b1-87d3-d87018dcf606",
+      "description": "Create an Azure Cognitive Search solution",
+      "duration": "63",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-search",
+      "rating_average": 4.91,
+      "rating_count": 45,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Create an Azure Cognitive Search solution",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-azure-cognitive-search-solution/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 14.695646,
+      "Key": "ms-learn293c8e0b-a6b6-4da7-8e15-cc8672be21cf",
+      "description": "Explore Azure Cognitive Search to discover how to create an index, import data, and query the index for better search results.",
+      "duration": "53",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-search",
+      "rating_average": 4.61,
+      "rating_count": 217,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Introduction to Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 13.822708,
+      "Key": "ms-learn6057c369-b74e-459f-851c-8e771063754b",
+      "description": "Create a custom skill for Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-search",
+      "rating_average": 4.81,
+      "rating_count": 31,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Create a custom skill for Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-enrichment-pipeline-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 13.822708,
+      "Key": "ms-learn78329655-7993-4435-a246-b73e555909f3",
+      "description": "Create a custom skill for Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-search",
+      "rating_average": 4.81,
+      "rating_count": 31,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Create a custom skill for Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-enrichment-pipeline-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 13.822708,
+      "Key": "ms-learnc960fef1-1977-4b34-8f09-f00cbe326e34",
+      "description": "Create a knowledge store with Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-search",
+      "rating_average": 4.79,
+      "rating_count": 42,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Create a knowledge store with Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-knowledge-store-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 13.822708,
+      "Key": "ms-learnfac634ec-2700-4257-85c1-066454b639d4",
+      "description": "Create a knowledge store with Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-search",
+      "rating_average": 4.79,
+      "rating_count": 42,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Create a knowledge store with Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-knowledge-store-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 13.2997675,
+      "Key": "ms-learn0fcb600b-4bb5-480c-97ed-63cf6d842fe8",
+      "description": "Create a custom skill for Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "vs-code",
+      "rating_average": 4.81,
+      "rating_count": 31,
+      "role": "ai-engineer",
+      "source": "MS Learn",
+      "title": "Create a custom skill for Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-enrichment-pipeline-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 13.2997675,
+      "Key": "ms-learnf41c2cab-9943-42db-a0c9-8bed47619c53",
+      "description": "Create a custom skill for Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-functions",
+      "rating_average": 4.81,
+      "rating_count": 31,
+      "role": "ai-engineer",
+      "source": "MS Learn",
+      "title": "Create a custom skill for Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-enrichment-pipeline-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 11.800348,
+      "Key": "ms-learn67d5d774-bb50-4f9f-8507-b1d7500772e6",
+      "description": "Explore Azure Cognitive Search to discover how to create an index, import data, and query the index for better search results.",
+      "duration": "53",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure",
+      "rating_average": 4.61,
+      "rating_count": 217,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Introduction to Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.92741,
+      "Key": "ms-learn1918bcce-cb5a-4db1-871e-052f4af46b79",
+      "description": "Create a custom skill for Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-functions",
+      "rating_average": 4.81,
+      "rating_count": 31,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Create a custom skill for Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-enrichment-pipeline-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.92741,
+      "Key": "ms-learn2f19c7cb-45b5-45f1-a6ec-00409eadab7b",
+      "description": "Create a custom skill for Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-functions",
+      "rating_average": 4.81,
+      "rating_count": 31,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Create a custom skill for Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-enrichment-pipeline-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.92741,
+      "Key": "ms-learn4905153f-1a39-40b4-bcc2-b07638f69296",
+      "description": "Create a custom skill for Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "vs-code",
+      "rating_average": 4.81,
+      "rating_count": 31,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Create a custom skill for Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-enrichment-pipeline-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.92741,
+      "Key": "ms-learna838646f-97c5-4312-b39d-f419a1312b58",
+      "description": "Create a custom skill for Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "vs-code",
+      "rating_average": 4.81,
+      "rating_count": 31,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Create a custom skill for Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-enrichment-pipeline-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.323752,
+      "Key": "ms-learn13a499a7-5603-4803-b239-a48c9a217e67",
+      "description": "Learn to search and organize repository history by using filters, blame, and cross-linking on GitHub.",
+      "duration": "38",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure",
+      "rating_average": 4.79,
+      "rating_count": 241,
+      "role": "administrator",
+      "source": "MS Learn",
+      "title": "Search and organize repository history by using GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/search-organize-repository-history-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.323752,
+      "Key": "ms-learn3771573c-1c94-4adf-9b70-021b7f096f9d",
+      "description": "Learn to search and organize repository history by using filters, blame, and cross-linking on GitHub.",
+      "duration": "38",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "github",
+      "rating_average": 4.79,
+      "rating_count": 241,
+      "role": "administrator",
+      "source": "MS Learn",
+      "title": "Search and organize repository history by using GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/search-organize-repository-history-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.323752,
+      "Key": "ms-learn4d782479-7739-4f0f-a5bb-77d01d11f48d",
+      "description": "Learn to search and organize repository history by using filters, blame, and cross-linking on GitHub.",
+      "duration": "38",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "github",
+      "rating_average": 4.79,
+      "rating_count": 241,
+      "role": "devops-engineer",
+      "source": "MS Learn",
+      "title": "Search and organize repository history by using GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/search-organize-repository-history-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.323752,
+      "Key": "ms-learn6b15a22b-e603-48a3-8d61-c01ffce2dc52",
+      "description": "Learn to search and organize repository history by using filters, blame, and cross-linking on GitHub.",
+      "duration": "38",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure",
+      "rating_average": 4.79,
+      "rating_count": 241,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Search and organize repository history by using GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/search-organize-repository-history-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.323752,
+      "Key": "ms-learn736cf038-17f7-4270-a979-ac94e3483917",
+      "description": "Learn to search and organize repository history by using filters, blame, and cross-linking on GitHub.",
+      "duration": "38",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "github",
+      "rating_average": 4.79,
+      "rating_count": 241,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Search and organize repository history by using GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/search-organize-repository-history-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.323752,
+      "Key": "ms-learnab300ac1-0df5-46ac-b8f8-9d50cfe297fb",
+      "description": "Learn to search and organize repository history by using filters, blame, and cross-linking on GitHub.",
+      "duration": "38",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "github",
+      "rating_average": 4.79,
+      "rating_count": 241,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Search and organize repository history by using GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/search-organize-repository-history-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.323752,
+      "Key": "ms-learncfe0bf9b-74a0-46de-934a-9ff386ff1fa5",
+      "description": "Learn to search and organize repository history by using filters, blame, and cross-linking on GitHub.",
+      "duration": "38",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure",
+      "rating_average": 4.79,
+      "rating_count": 241,
+      "role": "devops-engineer",
+      "source": "MS Learn",
+      "title": "Search and organize repository history by using GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/search-organize-repository-history-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.323752,
+      "Key": "ms-learne4d66639-f3bf-414c-a062-ea7c7e2f2974",
+      "description": "Learn to search and organize repository history by using filters, blame, and cross-linking on GitHub.",
+      "duration": "38",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure",
+      "rating_average": 4.79,
+      "rating_count": 241,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Search and organize repository history by using GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/search-organize-repository-history-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 7.25819,
+      "Key": "ms-learn359e902e-9270-42de-9687-536b9fe0164c",
+      "description": "Learn about AI Builder licensing and how to buy and manage your AI Builder licenses.",
+      "duration": "40",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.59,
+      "rating_count": 17,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder licensing",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-licensing/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 7.25819,
+      "Key": "ms-learnba340cd7-5db3-42f8-bdd7-036a6974f5f1",
+      "description": "Learn about AI Builder licensing and how to buy and manage your AI Builder licenses.",
+      "duration": "40",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.59,
+      "rating_count": 17,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder licensing",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-licensing/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.8102965,
+      "Key": "ms-learn0197c8c6-dfc4-450b-9fa7-3f610977cc79",
+      "description": "Learn about AI Builder Text recognition and how to use it with other Power Platform products.",
+      "duration": "55",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.61,
+      "rating_count": 197,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder Text recognition",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-text-recognition/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.8102965,
+      "Key": "ms-learn15e073b4-6de0-4d11-b12a-32d65151d584",
+      "description": "Learn about AI Builder Sentiment analysis and how to use it with other Power Platform products.",
+      "duration": "55",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.65,
+      "rating_count": 170,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder Sentiment analysis",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-sentiment-analysis/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.8102965,
+      "Key": "ms-learn2adf55dd-65ba-4833-976a-c6452dd7a775",
+      "description": "Explore AI Builder Language detection and learn how to use it with other Power Platform products.",
+      "duration": "27",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.63,
+      "rating_count": 139,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder Language detection",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-language-detection/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.8102965,
+      "Key": "ms-learn73883ec6-3887-45a6-a027-bc9f2892392b",
+      "description": "Learn about AI Builder Text recognition and how to use it with other Power Platform products.",
+      "duration": "55",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.61,
+      "rating_count": 197,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder Text recognition",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-text-recognition/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.8102965,
+      "Key": "ms-learna2535dbf-ec97-4265-a26b-5b5c0aa689c3",
+      "description": "Learn the basics of AI Builder Object detection and how it can benefit your organization.",
+      "duration": "25",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.73,
+      "rating_count": 147,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder Object detection",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-object-detection/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.8102965,
+      "Key": "ms-learnba849c68-1b7c-475d-8ea9-a9e255411450",
+      "description": "Learn the basics of AI Builder Object detection and how it can benefit your organization.",
+      "duration": "25",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.73,
+      "rating_count": 147,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder Object detection",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-object-detection/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.8102965,
+      "Key": "ms-learnd56b0c83-5e61-466a-972b-b95682fcfeb2",
+      "description": "Explore AI Builder Language detection and learn how to use it with other Power Platform products.",
+      "duration": "27",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.63,
+      "rating_count": 139,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder Language detection",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-language-detection/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.8102965,
+      "Key": "ms-learnfc2cc759-b7e1-4d52-82f4-c26e23404919",
+      "description": "Learn about AI Builder Sentiment analysis and how to use it with other Power Platform products.",
+      "duration": "55",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.65,
+      "rating_count": 170,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder Sentiment analysis",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-sentiment-analysis/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.678481,
+      "Key": "ms-learn683b3d6c-a177-4384-a4cb-6f461202de0e",
+      "description": "Learn the basics of AI Builder usage in Microsoft Power Automate and how it can benefit your organization.",
+      "duration": "60",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.71,
+      "rating_count": 702,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Use AI Builder in Power Automate",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/ai-builder-power-automate/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.678481,
+      "Key": "ms-learna2cadb41-c6a9-4c0a-a9df-6054df03bd5f",
+      "description": "Explore the AI Builder Key phrase extraction model and learn how to use it with other Power Platform products.",
+      "duration": "52",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.67,
+      "rating_count": 178,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Introduction to AI Builder Key phrase extraction",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-key-phrase-extraction/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.678481,
+      "Key": "ms-learneedc2427-1be9-4593-8c65-a135f852ddff",
+      "description": "Explore the AI Builder Key phrase extraction model and learn how to use it with other Power Platform products.",
+      "duration": "52",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.67,
+      "rating_count": 178,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Introduction to AI Builder Key phrase extraction",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-key-phrase-extraction/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.634366,
+      "Key": "ms-learn7be24452-07d1-4acc-99b3-89b901049505",
+      "description": "Get started with AI on Azure",
+      "duration": "34",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-machine-learning",
+      "rating_average": 4.78,
+      "rating_count": 10997,
+      "role": "ai-engineer",
+      "source": "MS Learn",
+      "title": "Get started with AI on Azure",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-ai-fundamentals/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.634366,
+      "Key": "ms-learnbdb45f14-e397-40ab-bf99-d3ff1cc0ea43",
+      "description": "Get started with AI on Azure",
+      "duration": "34",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-bot-service",
+      "rating_average": 4.78,
+      "rating_count": 10997,
+      "role": "ai-engineer",
+      "source": "MS Learn",
+      "title": "Get started with AI on Azure",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-ai-fundamentals/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.634366,
+      "Key": "ms-learnefcdc4e3-d588-4b25-b109-65b7c593572b",
+      "description": "Get started with AI on Azure",
+      "duration": "34",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-services",
+      "rating_average": 4.78,
+      "rating_count": 10997,
+      "role": "ai-engineer",
+      "source": "MS Learn",
+      "title": "Get started with AI on Azure",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-ai-fundamentals/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.6089506,
+      "Key": "ms-learn13636881-10bb-406c-a7a0-4e77a1e37d5a",
+      "description": "Learn the basics of invoice processing in AI Builder and how it can benefit your organization.",
+      "duration": "10",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.81,
+      "rating_count": 21,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Get started with invoice processing in AI Builder",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/ai-builder-invoice-processing/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.6089506,
+      "Key": "ms-learn2f945536-a4a5-4c71-983d-717dba1a40c6",
+      "description": "Learn the basics of receipt processing in AI Builder and how it can benefit your organization.",
+      "duration": "12",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.79,
+      "rating_count": 208,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Get started with receipt processing in AI Builder",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/ai-builder-receipt-processing/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.6089506,
+      "Key": "ms-learn538855b9-afd9-4877-8730-2f93256b0ad2",
+      "description": "Learn the basics of receipt processing in AI Builder and how it can benefit your organization.",
+      "duration": "12",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.79,
+      "rating_count": 208,
+      "role": "administrator",
+      "source": "MS Learn",
+      "title": "Get started with receipt processing in AI Builder",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/ai-builder-receipt-processing/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.6089506,
+      "Key": "ms-learnb1ba00e9-49f3-4fb0-8cba-d67a7d207f84",
+      "description": "Learn how to use Ai Builder Text Recognition to automate the tracking of shipments.",
+      "duration": "108",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.8,
+      "rating_count": 10,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Apply AI Builder Text Recognition in the transportation industry",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/apply-ai-builder-text-recognition-transportation-industry/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.6089506,
+      "Key": "ms-learnb4303e0a-a9ba-4900-a370-4ff2f1e43ba0",
+      "description": "Learn how to use Ai Builder Text Recognition to automate the tracking of shipments.",
+      "duration": "108",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.8,
+      "rating_count": 10,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Apply AI Builder Text Recognition in the transportation industry",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/apply-ai-builder-text-recognition-transportation-industry/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.6089506,
+      "Key": "ms-learnfd9c0ab6-fac1-4786-9d9e-319d219af5ee",
+      "description": "Learn the basics of invoice processing in AI Builder and how it can benefit your organization.",
+      "duration": "10",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.81,
+      "rating_count": 21,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Get started with invoice processing in AI Builder",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/ai-builder-invoice-processing/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.4981384,
+      "Key": "ms-learn11a560e9-d107-4229-8b6b-f99cf3c4920b",
+      "description": "This self-paced module helps you build an AI model from the beginning and shows how you can use it in your business without writing a single line of code.",
+      "duration": "30",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.75,
+      "rating_count": 1744,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.4981384,
+      "Key": "ms-learn2b006004-9810-4dd1-9232-694e89f5510d",
+      "description": "This self-paced module helps you build an AI model from the beginning and shows how you can use it in your business without writing a single line of code.",
+      "duration": "30",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.75,
+      "rating_count": 1744,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.4771347,
+      "Key": "ms-learn1545c987-7064-4af9-b056-b1e0c2669385",
+      "description": "Learn about AI Builder Business card reader and how to use it in Microsoft Power Apps and Power Automate.",
+      "duration": "90",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.62,
+      "rating_count": 157,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder Business card reader",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-business-card-reader/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    }
+  ],
+  "@odata.nextLink": "https://atc-aisearch.search.windows.net/indexes/azuretable-index/docs/search?api-version=2024-03-01-preview"
+}
+
+### Query 4 ###
+{
+  "@odata.context": "https://atc-aisearch.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+  "@search.nextPageParameters": {
+    "search": "search=AI&$select=title,level,role,duration&$orderby=duration",
+    "skip": 50
+  },
+  "value": [
+    {
+      "@search.score": 17.164331,
+      "Key": "ms-learn13f442b0-f1d1-4402-8c3e-13f0c8b6ce8d",
+      "description": "Create an Azure Cognitive Search solution",
+      "duration": "63",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-search",
+      "rating_average": 4.91,
+      "rating_count": 45,
+      "role": "ai-engineer",
+      "source": "MS Learn",
+      "title": "Create an Azure Cognitive Search solution",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-azure-cognitive-search-solution/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 16.195065,
+      "Key": "ms-learn5244e529-28c6-4b6c-bba0-a3edcb956327",
+      "description": "Create a knowledge store with Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-search",
+      "rating_average": 4.79,
+      "rating_count": 42,
+      "role": "ai-engineer",
+      "source": "MS Learn",
+      "title": "Create a knowledge store with Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-knowledge-store-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 16.195065,
+      "Key": "ms-learn7e28c65f-5a23-47e7-b575-66139b3a43ca",
+      "description": "Create a custom skill for Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-search",
+      "rating_average": 4.81,
+      "rating_count": 31,
+      "role": "ai-engineer",
+      "source": "MS Learn",
+      "title": "Create a custom skill for Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-enrichment-pipeline-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 14.791975,
+      "Key": "ms-learn683814dd-934d-4e72-a5fd-81a3c8037999",
+      "description": "Create an Azure Cognitive Search solution",
+      "duration": "63",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-search",
+      "rating_average": 4.91,
+      "rating_count": 45,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Create an Azure Cognitive Search solution",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-azure-cognitive-search-solution/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 14.791975,
+      "Key": "ms-learne00a9b7f-cd37-41b1-87d3-d87018dcf606",
+      "description": "Create an Azure Cognitive Search solution",
+      "duration": "63",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-search",
+      "rating_average": 4.91,
+      "rating_count": 45,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Create an Azure Cognitive Search solution",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-azure-cognitive-search-solution/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 14.695646,
+      "Key": "ms-learn293c8e0b-a6b6-4da7-8e15-cc8672be21cf",
+      "description": "Explore Azure Cognitive Search to discover how to create an index, import data, and query the index for better search results.",
+      "duration": "53",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-search",
+      "rating_average": 4.61,
+      "rating_count": 217,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Introduction to Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 13.822708,
+      "Key": "ms-learn6057c369-b74e-459f-851c-8e771063754b",
+      "description": "Create a custom skill for Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-search",
+      "rating_average": 4.81,
+      "rating_count": 31,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Create a custom skill for Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-enrichment-pipeline-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 13.822708,
+      "Key": "ms-learn78329655-7993-4435-a246-b73e555909f3",
+      "description": "Create a custom skill for Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-search",
+      "rating_average": 4.81,
+      "rating_count": 31,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Create a custom skill for Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-enrichment-pipeline-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 13.822708,
+      "Key": "ms-learnc960fef1-1977-4b34-8f09-f00cbe326e34",
+      "description": "Create a knowledge store with Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-search",
+      "rating_average": 4.79,
+      "rating_count": 42,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Create a knowledge store with Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-knowledge-store-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 13.822708,
+      "Key": "ms-learnfac634ec-2700-4257-85c1-066454b639d4",
+      "description": "Create a knowledge store with Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-search",
+      "rating_average": 4.79,
+      "rating_count": 42,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Create a knowledge store with Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-knowledge-store-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 13.2997675,
+      "Key": "ms-learn0fcb600b-4bb5-480c-97ed-63cf6d842fe8",
+      "description": "Create a custom skill for Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "vs-code",
+      "rating_average": 4.81,
+      "rating_count": 31,
+      "role": "ai-engineer",
+      "source": "MS Learn",
+      "title": "Create a custom skill for Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-enrichment-pipeline-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 13.2997675,
+      "Key": "ms-learnf41c2cab-9943-42db-a0c9-8bed47619c53",
+      "description": "Create a custom skill for Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-functions",
+      "rating_average": 4.81,
+      "rating_count": 31,
+      "role": "ai-engineer",
+      "source": "MS Learn",
+      "title": "Create a custom skill for Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-enrichment-pipeline-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 11.800348,
+      "Key": "ms-learn67d5d774-bb50-4f9f-8507-b1d7500772e6",
+      "description": "Explore Azure Cognitive Search to discover how to create an index, import data, and query the index for better search results.",
+      "duration": "53",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure",
+      "rating_average": 4.61,
+      "rating_count": 217,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Introduction to Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.92741,
+      "Key": "ms-learn1918bcce-cb5a-4db1-871e-052f4af46b79",
+      "description": "Create a custom skill for Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-functions",
+      "rating_average": 4.81,
+      "rating_count": 31,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Create a custom skill for Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-enrichment-pipeline-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.92741,
+      "Key": "ms-learn2f19c7cb-45b5-45f1-a6ec-00409eadab7b",
+      "description": "Create a custom skill for Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-functions",
+      "rating_average": 4.81,
+      "rating_count": 31,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Create a custom skill for Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-enrichment-pipeline-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.92741,
+      "Key": "ms-learn4905153f-1a39-40b4-bcc2-b07638f69296",
+      "description": "Create a custom skill for Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "vs-code",
+      "rating_average": 4.81,
+      "rating_count": 31,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Create a custom skill for Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-enrichment-pipeline-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.92741,
+      "Key": "ms-learna838646f-97c5-4312-b39d-f419a1312b58",
+      "description": "Create a custom skill for Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "vs-code",
+      "rating_average": 4.81,
+      "rating_count": 31,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Create a custom skill for Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-enrichment-pipeline-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.323752,
+      "Key": "ms-learn13a499a7-5603-4803-b239-a48c9a217e67",
+      "description": "Learn to search and organize repository history by using filters, blame, and cross-linking on GitHub.",
+      "duration": "38",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure",
+      "rating_average": 4.79,
+      "rating_count": 241,
+      "role": "administrator",
+      "source": "MS Learn",
+      "title": "Search and organize repository history by using GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/search-organize-repository-history-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.323752,
+      "Key": "ms-learn3771573c-1c94-4adf-9b70-021b7f096f9d",
+      "description": "Learn to search and organize repository history by using filters, blame, and cross-linking on GitHub.",
+      "duration": "38",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "github",
+      "rating_average": 4.79,
+      "rating_count": 241,
+      "role": "administrator",
+      "source": "MS Learn",
+      "title": "Search and organize repository history by using GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/search-organize-repository-history-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.323752,
+      "Key": "ms-learn4d782479-7739-4f0f-a5bb-77d01d11f48d",
+      "description": "Learn to search and organize repository history by using filters, blame, and cross-linking on GitHub.",
+      "duration": "38",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "github",
+      "rating_average": 4.79,
+      "rating_count": 241,
+      "role": "devops-engineer",
+      "source": "MS Learn",
+      "title": "Search and organize repository history by using GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/search-organize-repository-history-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.323752,
+      "Key": "ms-learn6b15a22b-e603-48a3-8d61-c01ffce2dc52",
+      "description": "Learn to search and organize repository history by using filters, blame, and cross-linking on GitHub.",
+      "duration": "38",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure",
+      "rating_average": 4.79,
+      "rating_count": 241,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Search and organize repository history by using GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/search-organize-repository-history-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.323752,
+      "Key": "ms-learn736cf038-17f7-4270-a979-ac94e3483917",
+      "description": "Learn to search and organize repository history by using filters, blame, and cross-linking on GitHub.",
+      "duration": "38",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "github",
+      "rating_average": 4.79,
+      "rating_count": 241,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Search and organize repository history by using GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/search-organize-repository-history-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.323752,
+      "Key": "ms-learnab300ac1-0df5-46ac-b8f8-9d50cfe297fb",
+      "description": "Learn to search and organize repository history by using filters, blame, and cross-linking on GitHub.",
+      "duration": "38",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "github",
+      "rating_average": 4.79,
+      "rating_count": 241,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Search and organize repository history by using GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/search-organize-repository-history-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.323752,
+      "Key": "ms-learncfe0bf9b-74a0-46de-934a-9ff386ff1fa5",
+      "description": "Learn to search and organize repository history by using filters, blame, and cross-linking on GitHub.",
+      "duration": "38",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure",
+      "rating_average": 4.79,
+      "rating_count": 241,
+      "role": "devops-engineer",
+      "source": "MS Learn",
+      "title": "Search and organize repository history by using GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/search-organize-repository-history-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.323752,
+      "Key": "ms-learne4d66639-f3bf-414c-a062-ea7c7e2f2974",
+      "description": "Learn to search and organize repository history by using filters, blame, and cross-linking on GitHub.",
+      "duration": "38",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure",
+      "rating_average": 4.79,
+      "rating_count": 241,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Search and organize repository history by using GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/search-organize-repository-history-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 7.25819,
+      "Key": "ms-learn359e902e-9270-42de-9687-536b9fe0164c",
+      "description": "Learn about AI Builder licensing and how to buy and manage your AI Builder licenses.",
+      "duration": "40",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.59,
+      "rating_count": 17,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder licensing",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-licensing/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 7.25819,
+      "Key": "ms-learnba340cd7-5db3-42f8-bdd7-036a6974f5f1",
+      "description": "Learn about AI Builder licensing and how to buy and manage your AI Builder licenses.",
+      "duration": "40",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.59,
+      "rating_count": 17,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder licensing",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-licensing/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.8102965,
+      "Key": "ms-learn0197c8c6-dfc4-450b-9fa7-3f610977cc79",
+      "description": "Learn about AI Builder Text recognition and how to use it with other Power Platform products.",
+      "duration": "55",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.61,
+      "rating_count": 197,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder Text recognition",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-text-recognition/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.8102965,
+      "Key": "ms-learn15e073b4-6de0-4d11-b12a-32d65151d584",
+      "description": "Learn about AI Builder Sentiment analysis and how to use it with other Power Platform products.",
+      "duration": "55",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.65,
+      "rating_count": 170,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder Sentiment analysis",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-sentiment-analysis/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.8102965,
+      "Key": "ms-learn2adf55dd-65ba-4833-976a-c6452dd7a775",
+      "description": "Explore AI Builder Language detection and learn how to use it with other Power Platform products.",
+      "duration": "27",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.63,
+      "rating_count": 139,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder Language detection",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-language-detection/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.8102965,
+      "Key": "ms-learn73883ec6-3887-45a6-a027-bc9f2892392b",
+      "description": "Learn about AI Builder Text recognition and how to use it with other Power Platform products.",
+      "duration": "55",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.61,
+      "rating_count": 197,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder Text recognition",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-text-recognition/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.8102965,
+      "Key": "ms-learna2535dbf-ec97-4265-a26b-5b5c0aa689c3",
+      "description": "Learn the basics of AI Builder Object detection and how it can benefit your organization.",
+      "duration": "25",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.73,
+      "rating_count": 147,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder Object detection",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-object-detection/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.8102965,
+      "Key": "ms-learnba849c68-1b7c-475d-8ea9-a9e255411450",
+      "description": "Learn the basics of AI Builder Object detection and how it can benefit your organization.",
+      "duration": "25",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.73,
+      "rating_count": 147,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder Object detection",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-object-detection/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.8102965,
+      "Key": "ms-learnd56b0c83-5e61-466a-972b-b95682fcfeb2",
+      "description": "Explore AI Builder Language detection and learn how to use it with other Power Platform products.",
+      "duration": "27",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.63,
+      "rating_count": 139,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder Language detection",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-language-detection/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.8102965,
+      "Key": "ms-learnfc2cc759-b7e1-4d52-82f4-c26e23404919",
+      "description": "Learn about AI Builder Sentiment analysis and how to use it with other Power Platform products.",
+      "duration": "55",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.65,
+      "rating_count": 170,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder Sentiment analysis",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-sentiment-analysis/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.678481,
+      "Key": "ms-learn683b3d6c-a177-4384-a4cb-6f461202de0e",
+      "description": "Learn the basics of AI Builder usage in Microsoft Power Automate and how it can benefit your organization.",
+      "duration": "60",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.71,
+      "rating_count": 702,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Use AI Builder in Power Automate",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/ai-builder-power-automate/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.678481,
+      "Key": "ms-learna2cadb41-c6a9-4c0a-a9df-6054df03bd5f",
+      "description": "Explore the AI Builder Key phrase extraction model and learn how to use it with other Power Platform products.",
+      "duration": "52",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.67,
+      "rating_count": 178,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Introduction to AI Builder Key phrase extraction",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-key-phrase-extraction/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.678481,
+      "Key": "ms-learneedc2427-1be9-4593-8c65-a135f852ddff",
+      "description": "Explore the AI Builder Key phrase extraction model and learn how to use it with other Power Platform products.",
+      "duration": "52",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.67,
+      "rating_count": 178,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Introduction to AI Builder Key phrase extraction",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-key-phrase-extraction/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.634366,
+      "Key": "ms-learn7be24452-07d1-4acc-99b3-89b901049505",
+      "description": "Get started with AI on Azure",
+      "duration": "34",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-machine-learning",
+      "rating_average": 4.78,
+      "rating_count": 10997,
+      "role": "ai-engineer",
+      "source": "MS Learn",
+      "title": "Get started with AI on Azure",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-ai-fundamentals/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.634366,
+      "Key": "ms-learnbdb45f14-e397-40ab-bf99-d3ff1cc0ea43",
+      "description": "Get started with AI on Azure",
+      "duration": "34",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-bot-service",
+      "rating_average": 4.78,
+      "rating_count": 10997,
+      "role": "ai-engineer",
+      "source": "MS Learn",
+      "title": "Get started with AI on Azure",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-ai-fundamentals/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.634366,
+      "Key": "ms-learnefcdc4e3-d588-4b25-b109-65b7c593572b",
+      "description": "Get started with AI on Azure",
+      "duration": "34",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-services",
+      "rating_average": 4.78,
+      "rating_count": 10997,
+      "role": "ai-engineer",
+      "source": "MS Learn",
+      "title": "Get started with AI on Azure",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-ai-fundamentals/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.6089506,
+      "Key": "ms-learn13636881-10bb-406c-a7a0-4e77a1e37d5a",
+      "description": "Learn the basics of invoice processing in AI Builder and how it can benefit your organization.",
+      "duration": "10",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.81,
+      "rating_count": 21,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Get started with invoice processing in AI Builder",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/ai-builder-invoice-processing/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.6089506,
+      "Key": "ms-learn2f945536-a4a5-4c71-983d-717dba1a40c6",
+      "description": "Learn the basics of receipt processing in AI Builder and how it can benefit your organization.",
+      "duration": "12",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.79,
+      "rating_count": 208,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Get started with receipt processing in AI Builder",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/ai-builder-receipt-processing/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.6089506,
+      "Key": "ms-learn538855b9-afd9-4877-8730-2f93256b0ad2",
+      "description": "Learn the basics of receipt processing in AI Builder and how it can benefit your organization.",
+      "duration": "12",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.79,
+      "rating_count": 208,
+      "role": "administrator",
+      "source": "MS Learn",
+      "title": "Get started with receipt processing in AI Builder",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/ai-builder-receipt-processing/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.6089506,
+      "Key": "ms-learnb1ba00e9-49f3-4fb0-8cba-d67a7d207f84",
+      "description": "Learn how to use Ai Builder Text Recognition to automate the tracking of shipments.",
+      "duration": "108",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.8,
+      "rating_count": 10,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Apply AI Builder Text Recognition in the transportation industry",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/apply-ai-builder-text-recognition-transportation-industry/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.6089506,
+      "Key": "ms-learnb4303e0a-a9ba-4900-a370-4ff2f1e43ba0",
+      "description": "Learn how to use Ai Builder Text Recognition to automate the tracking of shipments.",
+      "duration": "108",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.8,
+      "rating_count": 10,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Apply AI Builder Text Recognition in the transportation industry",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/apply-ai-builder-text-recognition-transportation-industry/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.6089506,
+      "Key": "ms-learnfd9c0ab6-fac1-4786-9d9e-319d219af5ee",
+      "description": "Learn the basics of invoice processing in AI Builder and how it can benefit your organization.",
+      "duration": "10",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.81,
+      "rating_count": 21,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Get started with invoice processing in AI Builder",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/ai-builder-invoice-processing/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.4981384,
+      "Key": "ms-learn11a560e9-d107-4229-8b6b-f99cf3c4920b",
+      "description": "This self-paced module helps you build an AI model from the beginning and shows how you can use it in your business without writing a single line of code.",
+      "duration": "30",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.75,
+      "rating_count": 1744,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.4981384,
+      "Key": "ms-learn2b006004-9810-4dd1-9232-694e89f5510d",
+      "description": "This self-paced module helps you build an AI model from the beginning and shows how you can use it in your business without writing a single line of code.",
+      "duration": "30",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.75,
+      "rating_count": 1744,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.4771347,
+      "Key": "ms-learn1545c987-7064-4af9-b056-b1e0c2669385",
+      "description": "Learn about AI Builder Business card reader and how to use it in Microsoft Power Apps and Power Automate.",
+      "duration": "90",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.62,
+      "rating_count": 157,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder Business card reader",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-business-card-reader/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    }
+  ],
+  "@odata.nextLink": "https://atc-aisearch.search.windows.net/indexes/azuretable-index/docs/search?api-version=2024-03-01-preview"
+}
+
+### Query 5 ###
+{
+  "@odata.context": "https://atc-aisearch.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+  "@search.nextPageParameters": {
+    "search": "search=AI&$select=rating_average,title&$filter=rating_average gt 4.0",
+    "skip": 50
+  },
+  "value": [
+    {
+      "@search.score": 17.164331,
+      "Key": "ms-learn13f442b0-f1d1-4402-8c3e-13f0c8b6ce8d",
+      "description": "Create an Azure Cognitive Search solution",
+      "duration": "63",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-search",
+      "rating_average": 4.91,
+      "rating_count": 45,
+      "role": "ai-engineer",
+      "source": "MS Learn",
+      "title": "Create an Azure Cognitive Search solution",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-azure-cognitive-search-solution/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 16.195065,
+      "Key": "ms-learn5244e529-28c6-4b6c-bba0-a3edcb956327",
+      "description": "Create a knowledge store with Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-search",
+      "rating_average": 4.79,
+      "rating_count": 42,
+      "role": "ai-engineer",
+      "source": "MS Learn",
+      "title": "Create a knowledge store with Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-knowledge-store-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 16.195065,
+      "Key": "ms-learn7e28c65f-5a23-47e7-b575-66139b3a43ca",
+      "description": "Create a custom skill for Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-search",
+      "rating_average": 4.81,
+      "rating_count": 31,
+      "role": "ai-engineer",
+      "source": "MS Learn",
+      "title": "Create a custom skill for Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-enrichment-pipeline-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 14.791975,
+      "Key": "ms-learn683814dd-934d-4e72-a5fd-81a3c8037999",
+      "description": "Create an Azure Cognitive Search solution",
+      "duration": "63",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-search",
+      "rating_average": 4.91,
+      "rating_count": 45,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Create an Azure Cognitive Search solution",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-azure-cognitive-search-solution/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 14.791975,
+      "Key": "ms-learne00a9b7f-cd37-41b1-87d3-d87018dcf606",
+      "description": "Create an Azure Cognitive Search solution",
+      "duration": "63",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-search",
+      "rating_average": 4.91,
+      "rating_count": 45,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Create an Azure Cognitive Search solution",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-azure-cognitive-search-solution/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 14.695646,
+      "Key": "ms-learn293c8e0b-a6b6-4da7-8e15-cc8672be21cf",
+      "description": "Explore Azure Cognitive Search to discover how to create an index, import data, and query the index for better search results.",
+      "duration": "53",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-search",
+      "rating_average": 4.61,
+      "rating_count": 217,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Introduction to Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 13.822708,
+      "Key": "ms-learn6057c369-b74e-459f-851c-8e771063754b",
+      "description": "Create a custom skill for Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-search",
+      "rating_average": 4.81,
+      "rating_count": 31,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Create a custom skill for Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-enrichment-pipeline-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 13.822708,
+      "Key": "ms-learn78329655-7993-4435-a246-b73e555909f3",
+      "description": "Create a custom skill for Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-search",
+      "rating_average": 4.81,
+      "rating_count": 31,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Create a custom skill for Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-enrichment-pipeline-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 13.822708,
+      "Key": "ms-learnc960fef1-1977-4b34-8f09-f00cbe326e34",
+      "description": "Create a knowledge store with Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-search",
+      "rating_average": 4.79,
+      "rating_count": 42,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Create a knowledge store with Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-knowledge-store-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 13.822708,
+      "Key": "ms-learnfac634ec-2700-4257-85c1-066454b639d4",
+      "description": "Create a knowledge store with Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-search",
+      "rating_average": 4.79,
+      "rating_count": 42,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Create a knowledge store with Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-knowledge-store-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 13.2997675,
+      "Key": "ms-learn0fcb600b-4bb5-480c-97ed-63cf6d842fe8",
+      "description": "Create a custom skill for Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "vs-code",
+      "rating_average": 4.81,
+      "rating_count": 31,
+      "role": "ai-engineer",
+      "source": "MS Learn",
+      "title": "Create a custom skill for Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-enrichment-pipeline-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 13.2997675,
+      "Key": "ms-learnf41c2cab-9943-42db-a0c9-8bed47619c53",
+      "description": "Create a custom skill for Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-functions",
+      "rating_average": 4.81,
+      "rating_count": 31,
+      "role": "ai-engineer",
+      "source": "MS Learn",
+      "title": "Create a custom skill for Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-enrichment-pipeline-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 11.800348,
+      "Key": "ms-learn67d5d774-bb50-4f9f-8507-b1d7500772e6",
+      "description": "Explore Azure Cognitive Search to discover how to create an index, import data, and query the index for better search results.",
+      "duration": "53",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure",
+      "rating_average": 4.61,
+      "rating_count": 217,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Introduction to Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.92741,
+      "Key": "ms-learn1918bcce-cb5a-4db1-871e-052f4af46b79",
+      "description": "Create a custom skill for Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-functions",
+      "rating_average": 4.81,
+      "rating_count": 31,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Create a custom skill for Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-enrichment-pipeline-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.92741,
+      "Key": "ms-learn2f19c7cb-45b5-45f1-a6ec-00409eadab7b",
+      "description": "Create a custom skill for Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-functions",
+      "rating_average": 4.81,
+      "rating_count": 31,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Create a custom skill for Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-enrichment-pipeline-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.92741,
+      "Key": "ms-learn4905153f-1a39-40b4-bcc2-b07638f69296",
+      "description": "Create a custom skill for Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "vs-code",
+      "rating_average": 4.81,
+      "rating_count": 31,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Create a custom skill for Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-enrichment-pipeline-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.92741,
+      "Key": "ms-learna838646f-97c5-4312-b39d-f419a1312b58",
+      "description": "Create a custom skill for Azure Cognitive Search",
+      "duration": "46",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "vs-code",
+      "rating_average": 4.81,
+      "rating_count": 31,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Create a custom skill for Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-enrichment-pipeline-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.323752,
+      "Key": "ms-learn13a499a7-5603-4803-b239-a48c9a217e67",
+      "description": "Learn to search and organize repository history by using filters, blame, and cross-linking on GitHub.",
+      "duration": "38",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure",
+      "rating_average": 4.79,
+      "rating_count": 241,
+      "role": "administrator",
+      "source": "MS Learn",
+      "title": "Search and organize repository history by using GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/search-organize-repository-history-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.323752,
+      "Key": "ms-learn3771573c-1c94-4adf-9b70-021b7f096f9d",
+      "description": "Learn to search and organize repository history by using filters, blame, and cross-linking on GitHub.",
+      "duration": "38",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "github",
+      "rating_average": 4.79,
+      "rating_count": 241,
+      "role": "administrator",
+      "source": "MS Learn",
+      "title": "Search and organize repository history by using GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/search-organize-repository-history-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.323752,
+      "Key": "ms-learn4d782479-7739-4f0f-a5bb-77d01d11f48d",
+      "description": "Learn to search and organize repository history by using filters, blame, and cross-linking on GitHub.",
+      "duration": "38",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "github",
+      "rating_average": 4.79,
+      "rating_count": 241,
+      "role": "devops-engineer",
+      "source": "MS Learn",
+      "title": "Search and organize repository history by using GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/search-organize-repository-history-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.323752,
+      "Key": "ms-learn6b15a22b-e603-48a3-8d61-c01ffce2dc52",
+      "description": "Learn to search and organize repository history by using filters, blame, and cross-linking on GitHub.",
+      "duration": "38",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure",
+      "rating_average": 4.79,
+      "rating_count": 241,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Search and organize repository history by using GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/search-organize-repository-history-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.323752,
+      "Key": "ms-learn736cf038-17f7-4270-a979-ac94e3483917",
+      "description": "Learn to search and organize repository history by using filters, blame, and cross-linking on GitHub.",
+      "duration": "38",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "github",
+      "rating_average": 4.79,
+      "rating_count": 241,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Search and organize repository history by using GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/search-organize-repository-history-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.323752,
+      "Key": "ms-learnab300ac1-0df5-46ac-b8f8-9d50cfe297fb",
+      "description": "Learn to search and organize repository history by using filters, blame, and cross-linking on GitHub.",
+      "duration": "38",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "github",
+      "rating_average": 4.79,
+      "rating_count": 241,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Search and organize repository history by using GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/search-organize-repository-history-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.323752,
+      "Key": "ms-learncfe0bf9b-74a0-46de-934a-9ff386ff1fa5",
+      "description": "Learn to search and organize repository history by using filters, blame, and cross-linking on GitHub.",
+      "duration": "38",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure",
+      "rating_average": 4.79,
+      "rating_count": 241,
+      "role": "devops-engineer",
+      "source": "MS Learn",
+      "title": "Search and organize repository history by using GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/search-organize-repository-history-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 10.323752,
+      "Key": "ms-learne4d66639-f3bf-414c-a062-ea7c7e2f2974",
+      "description": "Learn to search and organize repository history by using filters, blame, and cross-linking on GitHub.",
+      "duration": "38",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure",
+      "rating_average": 4.79,
+      "rating_count": 241,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Search and organize repository history by using GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/search-organize-repository-history-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 7.25819,
+      "Key": "ms-learn359e902e-9270-42de-9687-536b9fe0164c",
+      "description": "Learn about AI Builder licensing and how to buy and manage your AI Builder licenses.",
+      "duration": "40",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.59,
+      "rating_count": 17,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder licensing",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-licensing/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 7.25819,
+      "Key": "ms-learnba340cd7-5db3-42f8-bdd7-036a6974f5f1",
+      "description": "Learn about AI Builder licensing and how to buy and manage your AI Builder licenses.",
+      "duration": "40",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.59,
+      "rating_count": 17,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder licensing",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-licensing/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.8102965,
+      "Key": "ms-learn0197c8c6-dfc4-450b-9fa7-3f610977cc79",
+      "description": "Learn about AI Builder Text recognition and how to use it with other Power Platform products.",
+      "duration": "55",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.61,
+      "rating_count": 197,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder Text recognition",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-text-recognition/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.8102965,
+      "Key": "ms-learn15e073b4-6de0-4d11-b12a-32d65151d584",
+      "description": "Learn about AI Builder Sentiment analysis and how to use it with other Power Platform products.",
+      "duration": "55",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.65,
+      "rating_count": 170,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder Sentiment analysis",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-sentiment-analysis/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.8102965,
+      "Key": "ms-learn2adf55dd-65ba-4833-976a-c6452dd7a775",
+      "description": "Explore AI Builder Language detection and learn how to use it with other Power Platform products.",
+      "duration": "27",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.63,
+      "rating_count": 139,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder Language detection",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-language-detection/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.8102965,
+      "Key": "ms-learn73883ec6-3887-45a6-a027-bc9f2892392b",
+      "description": "Learn about AI Builder Text recognition and how to use it with other Power Platform products.",
+      "duration": "55",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.61,
+      "rating_count": 197,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder Text recognition",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-text-recognition/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.8102965,
+      "Key": "ms-learna2535dbf-ec97-4265-a26b-5b5c0aa689c3",
+      "description": "Learn the basics of AI Builder Object detection and how it can benefit your organization.",
+      "duration": "25",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.73,
+      "rating_count": 147,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder Object detection",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-object-detection/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.8102965,
+      "Key": "ms-learnba849c68-1b7c-475d-8ea9-a9e255411450",
+      "description": "Learn the basics of AI Builder Object detection and how it can benefit your organization.",
+      "duration": "25",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.73,
+      "rating_count": 147,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder Object detection",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-object-detection/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.8102965,
+      "Key": "ms-learnd56b0c83-5e61-466a-972b-b95682fcfeb2",
+      "description": "Explore AI Builder Language detection and learn how to use it with other Power Platform products.",
+      "duration": "27",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.63,
+      "rating_count": 139,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder Language detection",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-language-detection/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.8102965,
+      "Key": "ms-learnfc2cc759-b7e1-4d52-82f4-c26e23404919",
+      "description": "Learn about AI Builder Sentiment analysis and how to use it with other Power Platform products.",
+      "duration": "55",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.65,
+      "rating_count": 170,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder Sentiment analysis",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-sentiment-analysis/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.678481,
+      "Key": "ms-learn683b3d6c-a177-4384-a4cb-6f461202de0e",
+      "description": "Learn the basics of AI Builder usage in Microsoft Power Automate and how it can benefit your organization.",
+      "duration": "60",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.71,
+      "rating_count": 702,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Use AI Builder in Power Automate",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/ai-builder-power-automate/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.678481,
+      "Key": "ms-learna2cadb41-c6a9-4c0a-a9df-6054df03bd5f",
+      "description": "Explore the AI Builder Key phrase extraction model and learn how to use it with other Power Platform products.",
+      "duration": "52",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.67,
+      "rating_count": 178,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Introduction to AI Builder Key phrase extraction",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-key-phrase-extraction/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.678481,
+      "Key": "ms-learneedc2427-1be9-4593-8c65-a135f852ddff",
+      "description": "Explore the AI Builder Key phrase extraction model and learn how to use it with other Power Platform products.",
+      "duration": "52",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.67,
+      "rating_count": 178,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Introduction to AI Builder Key phrase extraction",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-key-phrase-extraction/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.634366,
+      "Key": "ms-learn7be24452-07d1-4acc-99b3-89b901049505",
+      "description": "Get started with AI on Azure",
+      "duration": "34",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-machine-learning",
+      "rating_average": 4.78,
+      "rating_count": 10997,
+      "role": "ai-engineer",
+      "source": "MS Learn",
+      "title": "Get started with AI on Azure",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-ai-fundamentals/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.634366,
+      "Key": "ms-learnbdb45f14-e397-40ab-bf99-d3ff1cc0ea43",
+      "description": "Get started with AI on Azure",
+      "duration": "34",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-bot-service",
+      "rating_average": 4.78,
+      "rating_count": 10997,
+      "role": "ai-engineer",
+      "source": "MS Learn",
+      "title": "Get started with AI on Azure",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-ai-fundamentals/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.634366,
+      "Key": "ms-learnefcdc4e3-d588-4b25-b109-65b7c593572b",
+      "description": "Get started with AI on Azure",
+      "duration": "34",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "azure-cognitive-services",
+      "rating_average": 4.78,
+      "rating_count": 10997,
+      "role": "ai-engineer",
+      "source": "MS Learn",
+      "title": "Get started with AI on Azure",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-ai-fundamentals/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.6089506,
+      "Key": "ms-learn13636881-10bb-406c-a7a0-4e77a1e37d5a",
+      "description": "Learn the basics of invoice processing in AI Builder and how it can benefit your organization.",
+      "duration": "10",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.81,
+      "rating_count": 21,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Get started with invoice processing in AI Builder",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/ai-builder-invoice-processing/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.6089506,
+      "Key": "ms-learn2f945536-a4a5-4c71-983d-717dba1a40c6",
+      "description": "Learn the basics of receipt processing in AI Builder and how it can benefit your organization.",
+      "duration": "12",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.79,
+      "rating_count": 208,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Get started with receipt processing in AI Builder",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/ai-builder-receipt-processing/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.6089506,
+      "Key": "ms-learn538855b9-afd9-4877-8730-2f93256b0ad2",
+      "description": "Learn the basics of receipt processing in AI Builder and how it can benefit your organization.",
+      "duration": "12",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.79,
+      "rating_count": 208,
+      "role": "administrator",
+      "source": "MS Learn",
+      "title": "Get started with receipt processing in AI Builder",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/ai-builder-receipt-processing/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.6089506,
+      "Key": "ms-learnb1ba00e9-49f3-4fb0-8cba-d67a7d207f84",
+      "description": "Learn how to use Ai Builder Text Recognition to automate the tracking of shipments.",
+      "duration": "108",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.8,
+      "rating_count": 10,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Apply AI Builder Text Recognition in the transportation industry",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/apply-ai-builder-text-recognition-transportation-industry/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.6089506,
+      "Key": "ms-learnb4303e0a-a9ba-4900-a370-4ff2f1e43ba0",
+      "description": "Learn how to use Ai Builder Text Recognition to automate the tracking of shipments.",
+      "duration": "108",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.8,
+      "rating_count": 10,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Apply AI Builder Text Recognition in the transportation industry",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/apply-ai-builder-text-recognition-transportation-industry/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.6089506,
+      "Key": "ms-learnfd9c0ab6-fac1-4786-9d9e-319d219af5ee",
+      "description": "Learn the basics of invoice processing in AI Builder and how it can benefit your organization.",
+      "duration": "10",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.81,
+      "rating_count": 21,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Get started with invoice processing in AI Builder",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/ai-builder-invoice-processing/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.4981384,
+      "Key": "ms-learn11a560e9-d107-4229-8b6b-f99cf3c4920b",
+      "description": "This self-paced module helps you build an AI model from the beginning and shows how you can use it in your business without writing a single line of code.",
+      "duration": "30",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.75,
+      "rating_count": 1744,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.4981384,
+      "Key": "ms-learn2b006004-9810-4dd1-9232-694e89f5510d",
+      "description": "This self-paced module helps you build an AI model from the beginning and shows how you can use it in your business without writing a single line of code.",
+      "duration": "30",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.75,
+      "rating_count": 1744,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 6.4771347,
+      "Key": "ms-learn1545c987-7064-4af9-b056-b1e0c2669385",
+      "description": "Learn about AI Builder Business card reader and how to use it in Microsoft Power Apps and Power Automate.",
+      "duration": "90",
+      "instructor": null,
+      "level": "System.Byte[]",
+      "product": "ai-builder",
+      "rating_average": 4.62,
+      "rating_count": 157,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder Business card reader",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-business-card-reader/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    }
+  ],
+  "@odata.nextLink": "https://atc-aisearch.search.windows.net/indexes/azuretable-index/docs/search?api-version=2024-03-01-preview"
+}

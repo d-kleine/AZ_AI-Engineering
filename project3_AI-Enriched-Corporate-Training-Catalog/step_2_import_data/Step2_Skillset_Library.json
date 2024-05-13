@@ -1,0 +1,37 @@
+{
+  "@odata.context": "https://atc-aisearch.search.windows.net/$metadata#skillsets/$entity",
+  "@odata.etag": "\"0x8DC70FC4C30ED28\"",
+  "name": "azureblob-skillset",
+  "description": "Skillset created from the portal. skillsetName: azureblob-skillset; contentField: content; enrichmentGranularity: document; knowledgeStoreStorageAccount: ;",
+  "skills": [
+    {
+      "@odata.type": "#Microsoft.Skills.Text.KeyPhraseExtractionSkill",
+      "name": "#1",
+      "description": null,
+      "context": "/document/content",
+      "defaultLanguageCode": "en",
+      "maxKeyPhraseCount": null,
+      "modelVersion": null,
+      "inputs": [
+        {
+          "name": "text",
+          "source": "/document/content"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "keyPhrases",
+          "targetName": "keyphrases"
+        }
+      ]
+    }
+  ],
+  "cognitiveServices": {
+    "@odata.type": "#Microsoft.Azure.Search.CognitiveServicesByKey",
+    "description": "/subscriptions/5c6250fa-4a0b-4eea-b80d-02c53b6d7761/resourceGroups/AI-Training-Catalog/providers/Microsoft.CognitiveServices/accounts/atc-cogservice",
+    "key": null
+  },
+  "knowledgeStore": null,
+  "indexProjections": null,
+  "encryptionKey": null
+}

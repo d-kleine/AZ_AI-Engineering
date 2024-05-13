@@ -1,0 +1,37 @@
+{
+  "@odata.context": "https://atc-aisearch.search.windows.net/$metadata#skillsets/$entity",
+  "@odata.etag": "\"0x8DC71075260BD40\"",
+  "name": "azuretable-skillset",
+  "description": "Skillset created from the portal. skillsetName: azuretable-skillset; contentField: PartitionKey; enrichmentGranularity: document; knowledgeStoreStorageAccount: ;",
+  "skills": [
+    {
+      "@odata.type": "#Microsoft.Skills.Text.KeyPhraseExtractionSkill",
+      "name": "#1",
+      "description": null,
+      "context": "/document/PartitionKey",
+      "defaultLanguageCode": "en",
+      "maxKeyPhraseCount": null,
+      "modelVersion": null,
+      "inputs": [
+        {
+          "name": "text",
+          "source": "/document/PartitionKey"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "keyPhrases",
+          "targetName": "keyphrases"
+        }
+      ]
+    }
+  ],
+  "cognitiveServices": {
+    "@odata.type": "#Microsoft.Azure.Search.CognitiveServicesByKey",
+    "description": "/subscriptions/5c6250fa-4a0b-4eea-b80d-02c53b6d7761/resourceGroups/AI-Training-Catalog/providers/Microsoft.CognitiveServices/accounts/atc-cogservice",
+    "key": null
+  },
+  "knowledgeStore": null,
+  "indexProjections": null,
+  "encryptionKey": null
+}
