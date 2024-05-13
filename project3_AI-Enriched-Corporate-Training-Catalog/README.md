@@ -180,5 +180,5 @@ The final step involves deploying the service and integrating it into a simple w
   - Capture deployment details and performance metrics.
 
 ![Resource group](./screenshots/resource_group.png)
-![Storage used](./step_4_deployment\storage_used.png)
-![Performance metrics](./step_4_deployment\performance_metrics.png)
+![Storage used](./step_4_deployment/storage_used.png)
+![Performance metrics](./step_4_deployment/performance_metrics.png)
