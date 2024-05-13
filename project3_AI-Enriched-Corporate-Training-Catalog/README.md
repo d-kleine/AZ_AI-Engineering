@@ -6,7 +6,7 @@ An AI-enriched Corporate Training Catalog holds immense significance in today's 
 
 ## Requirements
 
-To meet the diverse needs of modern organizations and their workforce, this project sets out clear requirements, ensuring a seamless user experience and robust functionality. Below are the key requirements delineating our vision for this transformative tool:
+To meet the diverse needs of modern organizations and their workforce, this project sets out clear requirements, ensuring a seamless user experience and robust functionality. Below are the key requirements delineating the vision for this transformative tool:
 
 ### Search for Courses:
 
@@ -37,7 +37,7 @@ The requirements of the project are reflected [here](./step_1_design/Step1_Requi
 
 ## Project Summary
 
-This project aims to develop an AI-Enriched Corporate Training Catalog that consolidates training resources from various sources, including Microsoft, Udacity, internal materials, and open-access journal articles. The goal is to create a user-friendly interface where employees can search for courses and articles based on keywords, filter results by criteria like ratings and duration, and access additional information such as instructor profiles and DOI URLs. To enhance search capabilities, Azure AI Services will be used to enrich data and provide descriptive information about course entities. Additionally, a custom skill will be implemented to query the Springer API for article information. Azure AI Search plays a pivotal role in this project by providing robust search functionalities, facilitating data importation, enrichment, and indexing, and ultimately powering the search engine behind the training catalog.
+This project aims to develop an AI-Enriched Corporate Training Catalog that consolidates training resources from various sources, including Microsoft, Udacity, internal materials, and open-access journal articles. The goal is to create a user-friendly interface where employees can search for courses and articles based on keywords, filter results by criteria like ratings and duration, and access additional information such as instructor profiles and DOI URLs. To enhance search capabilities, Azure AI Services will be used to enrich data and provide descriptive information about course entities. Additionally, a custom skill will be implemented to query the Springer Nature API for article information. Azure AI Search plays a pivotal role in this project by providing robust search functionalities, facilitating data importation, enrichment, and indexing, and ultimately powering the search engine behind the training catalog.
 
 ![Architecture](./step_1_design/Step1_Architecture.png)
 
@@ -68,7 +68,7 @@ The course data is provided [here](./step_2_import_data/Data/courses.csv) and wi
 #### Moodle Instructor Profiles
 
 - Contains information about instructors for internal training courses on the Moodle platform.
-- Likely includes instructor names, expertise areas, biographies, and possibly links to their profiles or contact information.
+- Includes instructor names, expertise areas, biographies, and possibly links to their profiles or contact information.
 
 The Moodle instructor profiles data is provided [here](./step_3_enrichments/Data/MoodleInstructorProfiles.json)
 
@@ -82,7 +82,7 @@ The Moodle instructor profiles data is provided [here](./step_3_enrichments/Data
 - Provides users with access to valuable research and information in PDF format.
 - Enhances the training catalog's comprehensiveness and relevance to employees' learning needs.
 
-The curated PDF articles are provided in this folder [here](./step_2_import_data/Data/Library) and will be later enriched by:
+The curated PDF articles data is provided in this folder [here](./step_2_import_data/Data/Library) and will be later enriched by:
 
 #### Springer Nature API
 
@@ -90,7 +90,7 @@ The curated PDF articles are provided in this folder [here](./step_2_import_data
 - Allows querying for information such as article titles, authors, abstracts, publication dates, and digital object identifiers (DOIs).
 - Facilitates retrieval of metadata and content from Springer's collection of scientific and technical publications.
 
-The metadata will be retrieved via API through the [Springer Nature's Developer portal](https://dev.springernature.com/). The API will be read through a lookup function based on .NET provided [here](./step_3_enrichments/Function), deployed with Azure Function as a Function app.
+The metadata will be retrieved via API through the [Springer Nature's Developer Portal](https://dev.springernature.com/). The API will be read through a lookup function based on .NET provided [here](./step_3_enrichments/Function), deployed with Azure Functions as a Functions app.
 
 ## Implementation
 
@@ -101,7 +101,7 @@ In this initial phase, the project's foundational design is established, laying 
 
 - Architectural Diagram Creation:
 
-  - A high-level architectural diagram is crafted using a preferred diagramming tool.
+  - A high-level architectural diagram is crafted.
   - The diagram illustrates the system's structure, including data sources in Azure and the final user interface.
 
 - Requirements Generation:
@@ -114,7 +114,7 @@ This step focuses on importing data from multiple datasets into the Azure enviro
 - Data Upload
 
   - The data has been upload with Azure Storage Explorer
-  - The _courses.csv_ file to Azure Tables, the folder with the curated PDF articles to a Blob containers.
+  - The _courses.csv_ file to Azure Tables, the folder with the curated PDF articles to Blob containers.
 
 ![csv Table](./screenshots/storage_explorer_1.png)
 ![pdf Blob](./screenshots/storage_explorer_2.png)
@@ -123,7 +123,7 @@ This step focuses on importing data from multiple datasets into the Azure enviro
 
 - Data Importation:
 
-  - Utilization of the Import Data wizard to import "courses.csv" and research papers datasets.
+  - Utilization of the Import Data wizard to import _courses.csv_ and research papers datasets.
   - Selection of appropriate enrichments during import, aligning with design requirements.
 
 Both sources (csv Table, pdf Blob) have been imported as data sources, each with its Cognitive Skills and Target Index:
@@ -157,6 +157,7 @@ Enriching the dataset with additional information is the focus of this step, enh
   - Implementation as **WebApiSkill**
   - Acquisition of credentials for the Springer API and deployment of the Azure Function for custom skill implementation.
   - Integration of the custom skill into Azure AI Search for enriching data with article information.
+  - Also here updating index and indexer files to incorporate the enriched data for querying.
 
 ![Skillset](./step_4_deployment/deployed_app_3.png)
 ![Enrichments JSON](./screenshots/enrichments_json.png)
@@ -169,14 +170,15 @@ The final step involves deploying the service and integrating it into a simple w
 
 - Static Website Creation:
 
-  - Creation of a Static Website on the storage account for hosting the web application.
-  - Configuration of the index.html file to connect the website to the Azure AI Search instance.
+  - Configuration of the _index.html_ file to connect the website to the Azure AI Search instance.
+  - Deployment of the website and thorough testing to ensure proper functionality.
 
 ![Static Web App](./screenshots/static_webapp.png)
+![App](./step_4_deployment/deployed_app_5.png)
 
 - Testing and Validation:
-  - Deployment of the website and thorough testing to ensure proper functionality.
-  - Capture of screenshots in the Azure Portal to demonstrate deployment details and performance metrics.
+  - Capture deployment details and performance metrics.
 
 ![Resource group](./screenshots/resource_group.png)
-![App](./step_4_deployment/deployed_app_5.png)
+![Storage used](./step_4_deployment\storage_used.png)
+![Performance metrics](./step_4_deployment\performance_metrics.png)
