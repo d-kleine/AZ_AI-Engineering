@@ -49,10 +49,11 @@ Traditional boarding processes often entail cumbersome manual verification proce
 ![Data Flow Diagram](./step_1_problem_definition_system_design/DataFlow-Diagram.png)
 
 ### Azure AI Services Used
-* [AI Video Indexer API](https://www.videoindexer.ai) (formerly Video Recognizer)
-* [Form Recognizer Tool](https://fott-2-1.azurewebsites.net/) (now Document Intelligence)
-* [Custom Vision](https://www.customvision.ai/)
-* Face API
+
+- [AI Video Indexer API](https://www.videoindexer.ai) (formerly Video Recognizer)
+- [Form Recognizer Tool](https://fott-2-1.azurewebsites.net/) (now Document Intelligence)
+- [Custom Vision](https://www.customvision.ai/)
+- Face API
 
 ## Project Summary
 
@@ -61,8 +62,9 @@ The automated passenger boarding kiosk prototype exemplifies the practical impli
 ## Implementation
 
 ### Installation
-* All required Python packages can be found in the [*requirements.txt*](step_5_validation_metrics_monitoring/requirements.txt) file (see step 5).
-* All environment variables have been stored in a *.env* file at the main folder of this project:
+
+- All required Python packages can be found in the [_requirements.txt_](step_5_validation_metrics_monitoring/requirements.txt) file (see step 5).
+- All environment variables have been stored in a _.env_ file at the main folder of this project:
 
 ```bash
 AZURE_USERNAME=...
@@ -92,7 +94,7 @@ CUSTOM_VISION_PREDICTION_RESOURCE_ID=...
 STORAGE_ACCOUNT_CONNECTION_STRING=...
 ```
 
-* For interacting with external services like the [Form Recognizer Tool](https://fott-2-1.azurewebsites.net/), you need to set up Cross-Origin Resource Sharing (CORS) and generate a Shared Access Signature (SAS) URI to your blob container.
+- For interacting with external services like the [Form Recognizer Tool](https://fott-2-1.azurewebsites.net/), you need to set up Cross-Origin Resource Sharing (CORS) and generate a Shared Access Signature (SAS) URI to your blob container.
 
 ### Solution Strategy
 
@@ -106,3 +108,9 @@ STORAGE_ACCOUNT_CONNECTION_STRING=...
 8. Display final validation success/failure message to complete boarding process
 
 ![Architectural Diagram](./step_1_problem_definition_system_design/Architecture-Guideline.png)
+
+**Boarding granted**
+![Boarding granted](./step_5_validation_metrics_monitoring/all_validations_passed.jpg)
+
+**Boarding denied (name mismatch)**
+![Boarding denied](./step_5_validation_metrics_monitoring/named_not_validated.jpg)
