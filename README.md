@@ -41,7 +41,7 @@ The program focusses on Azure AI Services (formerly Azure Cognitive Services) an
 
 ### Key Skills
 
-- **Building Computer Vision Solutions**: Azure AI services, Azure Document Intelligence (formerly Form Recognizer), Azure Video Indexer (formerly Video Analyzer), Azure model and data deletion & export, Role-based access control, Model deployment with Azure, Application monitoring
+- **Building Computer Vision Solutions**: Azure AI services, Azure Document Intelligence (formerly Form Recognizer), Azure Video Indexer (formerly Video Analyzer), Custom Vision, Face API
 
 - **Building NLP and Conversational AI Solutions**: Microsoft Bot Framework (incl. Emulator, Composer), Key phrase extraction, Entity recognition, Azure text analytics, Azure Conversational AI, Language services
 
